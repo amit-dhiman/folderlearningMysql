@@ -1,0 +1,9 @@
+// config/database.js
+const { Sequelize } = require('sequelize');
+
+const sequelize = new Sequelize('your_database_name', 'your_username', 'your_password', {
+  host: 'localhost',
+  dialect: 'mysql',
+});
+
+module.exports = sequelize;

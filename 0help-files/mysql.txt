@@ -1,0 +1,449 @@
+git config --global --unset core.editor
+
+cd "C:\xampp\mysql\bin"
+
+check mysql version
+mysql --version
+
+run mysql
+mysql -u root -p -h localhost
+
+
+BETWEEN
+SELECT * FROM students where age BETWEEN 20 AND 50;  (THIS && WILL NOT WORK ON IT)
+
+NOT BETWEEN
+SELECT * FROM students where age NOT BETWEEN 20 AND 50;
+
+// Create new Table
+
+create table students(
+     id int not null auto_increment primary key,
+     fname varchar(100),
+     dob date,
+     dobtime time,
+     dat datetime,
+     event_datetime DATETIME
+  );
+
+// Date Time
+INSERT INTO my_table (event_name, event_datetime) VALUES
+    ('Meeting', '2023-08-02 15:30:00'),
+    ('Presentation', '2023-08-03 09:00:00');
+
+> select curdate();
+> select curtime();
+> select now();		// date & time both
+
+// primary key foriegn key             
+
+CREATE TABLE students (
+    cid INT AUTO_INCREMENT PRIMARY KEY,
+    cname VARCHAR(50),
+    cname VARCHAR(50),
+ );
+
+CREATE TABLE orders(
+    oid INT AUTO_INCREMENT PRIMARY KEY,
+    orderdate date,
+    oamount int,
+    cid int, foreign key(cid) references customers(cid)
+ );
+
+
+// INNER JOIN
+
+select * from customers JOIN orders ON customers.cid = orders.cid;
+
+select customers.cid, cname, oamount from customers JOIN orders ON customers.cid = orders.cid;
+
+
+//-------------------------Sequelize------------------------
+
+	-----------CRUD-----------
+
+// To Add data or Update
+
+// use this if you have data in array
+let data = await User.bulkCreate([]);
+
+ let data = await User.create({
+    firstName: "user",
+    lastName: "user1@gmail.com",
+  });
+
+  //   data.set({firstName:"kumar"});	  // set needs to be save()
+  	await data.update({ firstName: "user1" });
+  //   let dt = await data.save();
+  //   let a = await data.destroy();
+
+  console.log("---data----", data.toJSON());
+
+// To Update data
+
+  await ModelName.update(
+            { name, email, gender }, // The fields you want to update
+            { where: { id } } // The condition to find the user
+        );
+
+
+// To Find all data
+
+ User.findAll({});
+
+
+// To Find Single data
+
+ await User.findOne({
+      where: { id: req.params.id },
+    });
+
+
+    const saveDt= await User.findAll({
+        attributes:['id', ['firstName','name']] 
+        // it will show firstName's values as name field
+    });
+Output: {id:"1",name:"amit"}
+
+
+// exclude {projrction in mongodb}
+
+const saveDt= await User.findAll({
+      attributes:{exclude:['createdAt','updatedAt']},
+    });
+// it will delete excluded fields in response
+
+
+// This is shorter, and less error prone because it still works if you add / remove attributes from your model later
+
+
+Model.findAll({
+  attributes: [
+    'id', 'foo', 'bar','hats', // We had to list all attributes...
+    [sequelize.fn('COUNT', sequelize.col('hats')), 'n_hats'] // To add the aggregation...
+  ]
+});
+
+
+Model.findAll({
+  attributes: {
+    include: [
+      [sequelize.fn('COUNT', sequelize.col('hats')), 'n_hats']
+    ]
+  }
+});
+// it will show all data with this extra key('n_hats')
+
+
+
+    const opdats= await User.findAll({
+      where:{
+        id:{
+          [Op.gt]: 8
+        } 
+      }
+    });
+
+// in db queries, both or keys will works
+  const opdats= await User.findAll({
+    where: {
+      [Op.or]: [
+        { id: 8 },
+        { id: 7 },
+     ]
+    }
+  });
+
+   where: {
+    rank: {
+      [Op.or]: {
+        [Op.lt]: 1000,
+        [Op.eq]: null
+      }
+    },
+
+where: { 
+   rank:{
+      [Op.or]: [
+        {
+          title: {
+            [Op.like]: 'Boat%'
+          }
+        },
+        {
+          description: {
+            [Op.like]: '%boat%'
+          }
+        }
+      ]
+    }
+}
+
+
+
+To destroy everything the TRUNCATE SQL can be used:
+
+// Truncate the table
+await User.destroy({
+  truncate: true
+});
+
+
+
+await User.max('age'); // 40
+await User.max('age', { where: { age: { [Op.lt]: 20 } } }); // 10
+await User.min('age'); // 5
+await User.min('age', { where: { age: { [Op.gt]: 5 } } }); // 10
+await User.sum('age'); // 55
+await User.sum('age', { where: { age: { [Op.gt]: 5 } } }); // 50
+await User.count()
+
+
+
+// Skip 5 instances and fetch the 5 after that
+// offset == skip
+
+Project.findAll({ offset: 5, limit: 5 });
+
+await User.increment({age: 5}, { where: { id: 1 } })
+await User.increment({age: -5}, { where: { id: 1 } })
+
+
+
+// It will find data, if data doesnt exists, then it will create.
+
+let [user, created] = await User.findOrCreate({
+     where: {firstName: 'user3'},
+     defaults: {
+     lastName: 'javaScript'
+   }
+});
+
+
+// LIKE
+
+await sequelize.query(
+  'SELECT * FROM projects WHERE status IN(:status)',
+  {
+    replacements: { status: ['active', 'inactive'] },
+    type: QueryTypes.SELECT
+  }
+);
+
+
+// RELATIONSHIP
+// ONE TO ONE RELATIONSHIP
+
+// db.user.hasOne(db.contact,{foreignKey:"user_id",as:"contactDetails"});
+// db.user.hasMany(db.contact,{foreignKey:"user_id",as:"contactDetails"});
+// db.contact.belongsTo(db.user,{foreignKey:"user_id",as:"userDetails"});
+
+
+let oneToOne = async (req, res) => {
+  try {
+    // let data = await User.create({firstName: "rahul", lastName: "kumar"});
+    // if(data){
+    //   await Contact.create({permanent_address:"abc",current_address:"xyz",user_id: data.id})
+    // }
+
+    let getData= await User.findAll({ 
+      // attributes:['firstName','lastName'],
+      include:[{
+        model:Contact,
+        as:"contactDetails",
+        attributes:{exclude:['createdAt','updatedAt']}
+      }],
+      // where:{id:4}
+    })
+    console.log("----getData-----", getData);
+    res.status(200).json(getData);
+  } catch (e) {
+    console.log('------err----',e);
+    throw e;
+  }
+};
+
+
+// One To One AND One To Many are same we have to change in index.js db.user.belongsToMany(db.contact,{through:"user_contacts"});
+
+
+
+
+// Many To Many
+
+
+db.user.belongsToMany(db.contact,{through:"user_contacts"});    //  it will automatically create userId key, if we want manually we have to pass this,foreignKey:"user_id"
+db.contact.belongsToMany(db.user,{through:"user_contacts"});    //  ,foreignKey:"contact_id"
+
+
+// important to read all lines in this
+
+let ManyToMany = async (req, res) => {
+  try {
+    let data = await User.create({
+      firstName: "amit", lastName: "kumar"
+    });
+    if (data) {
+      var contact = await Contact.create({ permanent_address: "chd", current_address: "moh" })
+    }
+    if (contact) {
+	var a = await data.addContact(contact)
+    }
+    let getData = await User.findAll({
+      // attributes:['firstName','lastName'],
+      include: [{
+        model: Contact,
+        // as: "contactDetails", // we have not mentioned it in belongsToMany() function so we cant take it
+        // attributes: { exclude: ["createdAt", "updatedAt"] },
+      }],
+      // where:{id:4}
+    });
+
+    res.status(200).json(getData);
+  } catch (err) {
+    throw err;
+  }
+};
+
+
+
+// With include, we get all data in single search that is Eager loading
+// it will get single - single data of user and contact, it is Lazy loading
+
+
+// maybe it will only works with findOne not all
+
+let lazyloadingUser = async (req, res) => {
+  try {
+    let data= await User.create({firstName:"user2",lastName:"kumar2"});
+    if(data){
+      let c= await Contact.create({permanent_address:"una2",current_address:"panchkula1","user_id":data.id})
+    }
+    let getData = await User.findOne({
+      where:{id:2},
+      // include:[{model:Contact,as:"contactDetails"}],
+    });
+    let contact = await getData.getContactDetails();
+
+    res.status(200).json({userData:getData,contactData:contact});
+  } catch (err) {
+    throw err;
+  }
+};
+
+
+
+//  ----------------- Advanced Eager Loading ----------------
+
+//  User --> Contact --> Education --> "any other"
+
+//  For this we have to do some changes in Our Models
+
+// ----------- Nested Loading --------- 
+
+let eagerLoading = async (req, res) => {
+  try {
+    // let getData = await User.findAll({
+    //   include:[{
+    //     model:Contact,
+    //     as:"contactDetails",
+    //     required:false,
+    //     right:true
+    //   },{
+    //     model: Education,
+    //     as:"educationDetails"
+    //   }],
+    // });
+
+
+// it will not good to use, Create Query by your 
+
+    // let getData = await User.findAll({
+    //   include:{all:true, nested: true},
+    // });
+    
+   let getData = await User.findAll({
+      include:{
+        model: Contact,
+	as:"contactDetails",
+        include:{
+          model: Education,
+	  as:"educationDetails"
+ 	  where:{ id: 1},          
+        },
+        where:{ id: 2 }
+      },
+      where:{ id: 3 }
+    });
+
+    res.status(200).json(getData);
+  } catch (err) {
+    throw err;
+  }
+};
+
+// here is 2 types of includes
+include:[{}, {}, {}];
+include:{a:1, include:{b:2, include:{}}}
+ 
+  
+// ------------Creating with Associations------------------
+
+let creator = async (req, res) => {
+  try {
+     let data= await Contact.create({
+       permanent_address:'hampi',
+       current_address:"noida",
+       userDetails:{
+         firstName:"ram",
+         lastName:"sham"
+       }
+     },{
+        include:[{ association: db.contactUser }],
+     });
+
+    // console.log('-----data------',data);
+
+    //let getData = await User.findAll({
+    // include:{
+    //   model:Contact,
+    //   as:"contactDetails",
+    //     include:{
+    //      model:Education,
+    //      as:"educationDetails"
+    //    }
+    //  }
+    //})
+
+    res.status(200).json(getData);
+  } catch (err) {  
+    throw err;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

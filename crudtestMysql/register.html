@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Register</h1>
+
+    <form onsubmit="return submitForm()">
+    <!-- <form action="/" method="POST"> -->
+        <input type="text" name="name" placeholder="Enter Name" /><br><br>
+        <input type="email" name="email" placeholder="Enter Email" /><br><br>
+        <input type="number" name="mno" placeholder="Enter number" /><br><br>
+        <input type="submit" />
+    </form>
+
+    <div id="request"></div>
+
+</body>
+
+<script>
+    function submitForm(){
+        let name = document.getElementsByTagName("input")[0];
+        let email = document.getElementsByTagName("input")[1];
+        let mno = document.getElementsByTagName("input")[2];
+
+        console.log('-----name ------',name,email,mno);
+
+        let req= new XMLHttpRequest();
+
+        req.open("POST","/");
+        req.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        req.send(`name=${name.value}&email=${email.value}&mno=${mno.value}`)
+
+        req.onreadystatechange= ()=>{
+            if(req.readyState == 4 && req.status == 200){
+                name.value = ""; email.value = ""; mno.value = ""
+            }
+        }
+        return false;
+    }
+
+</script>
+</html>
+
