@@ -1,0 +1,108 @@
+{
+    "_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "Film",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-18T12:34:18.263+0000"),
+    "updatedAt" : ISODate("2022-08-18T12:06:40.755+0000"),
+    "__v" : NumberInt(0),
+    "image" : "images/interests/image-1626079342413.PNG"
+}
+{
+    "_id" : ObjectId("60a616918be80f16008378e3"),
+    "title" : "Art",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-20T07:58:09.029+0000"),
+    "updatedAt" : ISODate("2022-08-18T12:07:22.661+0000"),
+    "__v" : NumberInt(0),
+    "image" : "images/interests/image-1626079372889.PNG"
+}
+{
+    "_id" : ObjectId("60a616e98be80f16008378e6"),
+    "title" : "Sports",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-20T07:59:37.737+0000"),
+    "updatedAt" : ISODate("2022-08-18T12:07:56.306+0000"),
+    "__v" : NumberInt(0),
+    "image" : "images/interests/image-1626091562669.PNG"
+}
+{
+    "_id" : ObjectId("60a616f88be80f16008378e7"),
+    "title" : "Writing",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-20T07:59:52.674+0000"),
+    "updatedAt" : ISODate("2022-08-18T12:08:24.676+0000"),
+    "__v" : NumberInt(0),
+    "image" : "images/interests/image-1660824504672.png"
+}
+{
+    "_id" : ObjectId("60a617438be80f16008378ea"),
+    "title" : "Yoga",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-20T08:01:07.650+0000"),
+    "updatedAt" : ISODate("2022-08-18T12:08:57.544+0000"),
+    "__v" : NumberInt(0),
+    "image" : "images/interests/image-1626091600081.PNG"
+}
+{
+    "_id" : ObjectId("60ac9cab3f2da87646398535"),
+    "title" : "Cooking",
+    "status" : "0",
+    "image" : "images/interests/image-1660824565917.png",
+    "createdAt" : ISODate("2021-05-25T06:43:55.443+0000"),
+    "updatedAt" : ISODate("2022-08-18T12:09:25.918+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60a617538be80f16008378eb"),
+    "title" : "Reading",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-20T08:01:23.225+0000"),
+    "updatedAt" : ISODate("2022-08-18T12:09:55.734+0000"),
+    "__v" : NumberInt(0),
+    "image" : "images/interests/image-1660824595733.png"
+}
+{
+    "_id" : ObjectId("60a616b78be80f16008378e5"),
+    "title" : "Photo",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-20T07:58:47.693+0000"),
+    "updatedAt" : ISODate("2022-08-18T12:10:37.905+0000"),
+    "__v" : NumberInt(0),
+    "image" : "images/interests/image-1660824637903.png"
+}
+{
+    "_id" : ObjectId("60a617218be80f16008378e8"),
+    "title" : "Travel",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-20T08:00:33.945+0000"),
+    "updatedAt" : ISODate("2022-08-18T12:11:28.156+0000"),
+    "__v" : NumberInt(0),
+    "image" : "images/interests/image-1660824688155.png"
+}
+{
+    "_id" : ObjectId("60a616a58be80f16008378e4"),
+    "title" : "Music",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-20T07:58:29.608+0000"),
+    "updatedAt" : ISODate("2022-08-18T12:12:20.112+0000"),
+    "__v" : NumberInt(0),
+    "image" : "images/interests/image-1660824740110.png"
+}
+{
+    "_id" : ObjectId("60a617328be80f16008378e9"),
+    "title" : "Dance",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-20T08:00:50.094+0000"),
+    "updatedAt" : ISODate("2022-08-17T12:30:54.469+0000"),
+    "__v" : NumberInt(0),
+    "image" : "images/interests/image-1660739454468.png"
+}
+{
+    "_id" : ObjectId("60a617628be80f16008378ec"),
+    "title" : "Games",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-20T08:01:38.732+0000"),
+    "updatedAt" : ISODate("2022-08-18T12:13:48.348+0000"),
+    "__v" : NumberInt(0),
+    "image" : "images/interests/image-1660824828347.png"
+}

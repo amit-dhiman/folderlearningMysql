@@ -1,0 +1,17 @@
+user:  j5user
+pswrd: 98Lv9zd&8
+host:  161.97.132.85
+
+// Admin
+
+https://www.figma.com/file/aWhuo4l56pufPYMJokcbu6/Houzmart?type=design&mode=design&t=xybSZohKCnXQK8FD-0
+
+//Driver
+
+https://www.figma.com/file/SJZ2tUbg9WQhKOnHcIko2u/PinkBoda-(Copy)-(Copy)?type=design&node-id=0-1&mode=design&t=4Du64MPcL179gcbO-0
+
+
+// User
+
+https://www.figma.com/file/SJZ2tUbg9WQhKOnHcIko2u/PinkBoda-(Copy)-(Copy)?type=design&node-id=0-1&mode=design&t=KOHiXWRtxUdIzPEP-0
+

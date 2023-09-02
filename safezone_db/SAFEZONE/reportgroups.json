@@ -1,0 +1,40 @@
+{
+    "_id" : ObjectId("648ba981e2afd63bd9ec6906"),
+    "group_id" : "648ba20ee2afd63bd9ec68ab",
+    "user_id" : "648b8fc6e2afd63bd9ec6691",
+    "createdAt" : ISODate("2023-06-16T00:14:57.293+0000"),
+    "updatedAt" : ISODate("2023-06-16T00:14:57.293+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6493c070f74dab2b6486e789"),
+    "user_id" : "648b8fc6e2afd63bd9ec6691",
+    "group_id" : "649352f4f74dab2b6486e3e4",
+    "createdAt" : ISODate("2023-06-22T03:30:56.384+0000"),
+    "updatedAt" : ISODate("2023-06-22T03:30:56.384+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6494c4d595c07d44a914b8da"),
+    "user_id" : "64930814f74dab2b6486e3e3",
+    "group_id" : "6493533cf74dab2b6486e3ec",
+    "createdAt" : ISODate("2023-06-22T22:01:57.670+0000"),
+    "updatedAt" : ISODate("2023-06-22T22:01:57.670+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6495dbb995c07d44a914bad8"),
+    "user_id" : "64930814f74dab2b6486e3e3",
+    "group_id" : "6495da9895c07d44a914bac5",
+    "createdAt" : ISODate("2023-06-23T17:51:53.464+0000"),
+    "updatedAt" : ISODate("2023-06-23T17:51:53.464+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64d0d1f700b5dd53b2fa5a78"),
+    "user_id" : "64cdfb1b3a1163fdc99d7dfa",
+    "group_id" : "649aca5d7df317ccc536d6f2",
+    "createdAt" : ISODate("2023-08-07T11:13:59.553+0000"),
+    "updatedAt" : ISODate("2023-08-07T11:13:59.553+0000"),
+    "__v" : NumberInt(0)
+}

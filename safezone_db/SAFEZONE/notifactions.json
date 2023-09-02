@@ -1,0 +1,1160 @@
+{
+    "_id" : ObjectId("6486f83c1d10040e0cf85da1"),
+    "user_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "__v" : NumberInt(10),
+    "badge" : NumberInt(3),
+    "createdAt" : ISODate("2023-06-12T10:49:32.434+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:36.561+0000"),
+    "group_req" : [
+        {
+            "_id" : ObjectId("6499837c95c07d44a914bcfa"),
+            "sender_id" : ObjectId("6495744d95c07d44a914b8e1"),
+            "group_id" : ObjectId("6482b8a62c24eaa5b09a1222")
+        },
+        {
+            "_id" : ObjectId("6499838395c07d44a914bcfc"),
+            "sender_id" : ObjectId("6495744d95c07d44a914b8e1"),
+            "group_id" : ObjectId("6482b063153e8ea4fc359cdf")
+        }
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1c95c07d44a914bde4"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("6486f87f36e0ac01e40dd320"),
+    "badge" : NumberInt(3),
+    "user_id" : ObjectId("63ea26d51a51b49b7050e206"),
+    "group_req" : [
+        {
+            "_id" : ObjectId("64d0ccbb00b5dd53b2fa5a74"),
+            "sender_id" : ObjectId("64cdfb1b3a1163fdc99d7dfa"),
+            "group_id" : ObjectId("6486fa9173ac2f022221ee23")
+        }
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("6488ba151f6d92213b0ed76e"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba0e1f6d92213b0ed769")
+        },
+        {
+            "_id" : ObjectId("6488ba4e1f6d92213b0ed78d"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba461f6d92213b0ed786")
+        },
+        {
+            "_id" : ObjectId("6488ba861f6d92213b0ed7ae"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba7f1f6d92213b0ed7a9")
+        },
+        {
+            "_id" : ObjectId("648b9fd9e2afd63bd9ec677b"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("648b9f7fe2afd63bd9ec6769")
+        },
+        {
+            "_id" : ObjectId("648ba1efe2afd63bd9ec6894"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("648ba1e5e2afd63bd9ec688b")
+        },
+        {
+            "_id" : ObjectId("6495da2695c07d44a914b96a"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da1c95c07d44a914b962")
+        },
+        {
+            "_id" : ObjectId("6495da6b95c07d44a914baaf"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da6395c07d44a914baa7")
+        },
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bd9d"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-12T10:50:39.142+0000"),
+    "updatedAt" : ISODate("2023-08-07T10:51:39.691+0000"),
+    "__v" : NumberInt(16)
+}
+{
+    "_id" : ObjectId("6488b9c81f6d92213b0ed734"),
+    "badge" : NumberInt(0),
+    "user_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "invites" : [
+        {
+            "_id" : ObjectId("6495dd1095c07d44a914bafb"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da6395c07d44a914baa7")
+        },
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bdac"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-13T18:47:36.567+0000"),
+    "updatedAt" : ISODate("2023-06-27T12:22:50.606+0000"),
+    "__v" : NumberInt(42)
+}
+{
+    "_id" : ObjectId("6488b9c81f6d92213b0ed738"),
+    "badge" : NumberInt(2),
+    "user_id" : ObjectId("63ea27f51a51b49b7050e20a"),
+    "invites" : [
+        {
+            "_id" : ObjectId("6488ba151f6d92213b0ed774"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba0e1f6d92213b0ed769")
+        },
+        {
+            "_id" : ObjectId("6488ba4e1f6d92213b0ed793"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba461f6d92213b0ed786")
+        },
+        {
+            "_id" : ObjectId("6488ba861f6d92213b0ed7b4"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba7f1f6d92213b0ed7a9")
+        },
+        {
+            "_id" : ObjectId("648b9fd9e2afd63bd9ec6784"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("648b9f7fe2afd63bd9ec6769")
+        },
+        {
+            "_id" : ObjectId("648ba1efe2afd63bd9ec689d"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("648ba1e5e2afd63bd9ec688b")
+        },
+        {
+            "_id" : ObjectId("6495da2795c07d44a914b97c"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da1c95c07d44a914b962")
+        },
+        {
+            "_id" : ObjectId("6495da6c95c07d44a914bac1"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da6395c07d44a914baa7")
+        },
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bdb2"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-13T18:47:36.608+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:35.675+0000"),
+    "__v" : NumberInt(9)
+}
+{
+    "_id" : ObjectId("6488b9c81f6d92213b0ed73c"),
+    "badge" : NumberInt(0),
+    "user_id" : ObjectId("640b9fb7028cc1c7dab89392"),
+    "invites" : [
+
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-13T18:47:36.650+0000"),
+    "updatedAt" : ISODate("2023-06-28T14:19:57.157+0000"),
+    "__v" : NumberInt(9)
+}
+{
+    "_id" : ObjectId("6488b9c81f6d92213b0ed740"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("6481e51fcc6e5e8f90617afd"),
+    "invites" : [
+        {
+            "_id" : ObjectId("6488ba151f6d92213b0ed77a"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba0e1f6d92213b0ed769")
+        },
+        {
+            "_id" : ObjectId("6488ba4e1f6d92213b0ed799"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba461f6d92213b0ed786")
+        },
+        {
+            "_id" : ObjectId("6488ba861f6d92213b0ed7ba"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba7f1f6d92213b0ed7a9")
+        },
+        {
+            "_id" : ObjectId("648b9fd9e2afd63bd9ec678a"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("648b9f7fe2afd63bd9ec6769")
+        },
+        {
+            "_id" : ObjectId("648ba1efe2afd63bd9ec68a6"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("648ba1e5e2afd63bd9ec688b")
+        },
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bdb8"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-13T18:47:36.682+0000"),
+    "updatedAt" : ISODate("2023-07-18T07:58:05.316+0000"),
+    "__v" : NumberInt(8)
+}
+{
+    "_id" : ObjectId("6488b9c81f6d92213b0ed744"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("6479af49ac3084ddd0784bf6"),
+    "invites" : [
+        {
+            "_id" : ObjectId("6488ba151f6d92213b0ed77d"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba0e1f6d92213b0ed769")
+        },
+        {
+            "_id" : ObjectId("6488ba4e1f6d92213b0ed79c"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba461f6d92213b0ed786")
+        },
+        {
+            "_id" : ObjectId("6488ba861f6d92213b0ed7bd"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba7f1f6d92213b0ed7a9")
+        },
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bdbb"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-13T18:47:36.739+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:35.755+0000"),
+    "__v" : NumberInt(4)
+}
+{
+    "_id" : ObjectId("6488b9c81f6d92213b0ed748"),
+    "badge" : NumberInt(3),
+    "user_id" : ObjectId("63e9e8661a51b49b7050e201"),
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bdc1"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+        {
+            "_id" : ObjectId("64998fb395c07d44a914bd11"),
+            "sender_id" : ObjectId("64998efc95c07d44a914bd0b"),
+            "group_id" : ObjectId("63e9e99c1a51b49b7050e202")
+        },
+        {
+            "_id" : ObjectId("64d36fb8e40f1e85b35eaa4c"),
+            "sender_id" : ObjectId("64d360b8b8fa802dfc668c29"),
+            "group_id" : ObjectId("63e9e99c1a51b49b7050e202")
+        }
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-13T18:47:36.781+0000"),
+    "updatedAt" : ISODate("2023-08-09T10:51:36.511+0000"),
+    "__v" : NumberInt(14)
+}
+{
+    "_id" : ObjectId("6488b9c81f6d92213b0ed74c"),
+    "badge" : NumberInt(0),
+    "user_id" : ObjectId("6481efd2cc6e5e8f90617b06"),
+    "invites" : [
+        {
+            "_id" : ObjectId("6488ba151f6d92213b0ed783"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba0e1f6d92213b0ed769")
+        },
+        {
+            "_id" : ObjectId("6488ba4e1f6d92213b0ed7a2"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba461f6d92213b0ed786")
+        },
+        {
+            "_id" : ObjectId("6488ba861f6d92213b0ed7c3"),
+            "sender_id" : ObjectId("64553b7525ce3aed0d105e74"),
+            "group_id" : ObjectId("6488ba7f1f6d92213b0ed7a9")
+        },
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bdca"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-13T18:47:36.814+0000"),
+    "updatedAt" : ISODate("2023-06-28T14:00:36.406+0000"),
+    "__v" : NumberInt(4)
+}
+{
+    "_id" : ObjectId("6488b9fc1d10040e0c310374"),
+    "user_id" : ObjectId("64553b7525ce3aed0d105e74"),
+    "__v" : NumberInt(24),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-13T18:48:28.875+0000"),
+    "updatedAt" : ISODate("2023-06-28T14:21:05.060+0000"),
+    "group_req" : [
+        {
+            "_id" : ObjectId("64998f0495c07d44a914bd0d"),
+            "sender_id" : ObjectId("64998efc95c07d44a914bd0b"),
+            "group_id" : ObjectId("6495de3e95c07d44a914bb10")
+        }
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bdc4"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("648953011f6d92213b0ed95d"),
+    "badge" : NumberInt(2),
+    "user_id" : ObjectId("648951dc1f6d92213b0ed909"),
+    "group_req" : [
+
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("648b9fd9e2afd63bd9ec677e"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("648b9f7fe2afd63bd9ec6769")
+        },
+        {
+            "_id" : ObjectId("6495da2695c07d44a914b973"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da1c95c07d44a914b962")
+        },
+        {
+            "_id" : ObjectId("6495da6c95c07d44a914bab8"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da6395c07d44a914baa7")
+        },
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bda6"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-14T05:41:21.144+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:35.570+0000"),
+    "__v" : NumberInt(23)
+}
+{
+    "_id" : ObjectId("648953151f6d92213b0ed963"),
+    "badge" : NumberInt(0),
+    "user_id" : ObjectId("648951f41f6d92213b0ed90a"),
+    "simple" : [
+
+    ],
+    "invites" : [
+
+    ],
+    "group_req" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-14T05:41:41.641+0000"),
+    "updatedAt" : ISODate("2023-06-28T05:33:40.845+0000"),
+    "__v" : NumberInt(18)
+}
+{
+    "_id" : ObjectId("64895ec81f6d92213b0ee924"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61"),
+    "simple" : [
+
+    ],
+    "invites" : [
+
+    ],
+    "group_req" : [
+        {
+            "_id" : ObjectId("64d47386f949da35bc83d8c3"),
+            "sender_id" : ObjectId("64d360b8b8fa802dfc668c29"),
+            "group_id" : ObjectId("649ae7d87df317ccc536df97")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-14T06:31:36.867+0000"),
+    "updatedAt" : ISODate("2023-08-10T05:20:06.174+0000"),
+    "__v" : NumberInt(13)
+}
+{
+    "_id" : ObjectId("648b91d459f5caefb0700197"),
+    "user_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+    "__v" : NumberInt(42),
+    "badge" : NumberInt(11),
+    "createdAt" : ISODate("2023-06-15T22:33:56.261+0000"),
+    "updatedAt" : ISODate("2023-07-18T07:58:06.498+0000"),
+    "group_req" : [
+        {
+            "_id" : ObjectId("649656fd95c07d44a914bce4"),
+            "sender_id" : ObjectId("63ea33721a51b49b7050e224"),
+            "group_id" : ObjectId("6495da6395c07d44a914baa7")
+        },
+        {
+            "_id" : ObjectId("64998f0c95c07d44a914bd0f"),
+            "sender_id" : ObjectId("64998efc95c07d44a914bd0b"),
+            "group_id" : ObjectId("6495da6395c07d44a914baa7")
+        },
+        {
+            "_id" : ObjectId("649a7aac95c07d44a914bd47"),
+            "sender_id" : ObjectId("649a704d95c07d44a914bd12"),
+            "group_id" : ObjectId("6495da1c95c07d44a914b962")
+        },
+        {
+            "_id" : ObjectId("649a7fcc95c07d44a914bd53"),
+            "sender_id" : ObjectId("649a7f5995c07d44a914bd51"),
+            "group_id" : ObjectId("6495da9895c07d44a914bac5")
+        }
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bdd4"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("648b9b4a59f5caefb0711e94"),
+    "user_id" : ObjectId("648b9a14e2afd63bd9ec672b"),
+    "__v" : NumberInt(8),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-15T23:14:18.066+0000"),
+    "updatedAt" : ISODate("2023-08-29T23:11:06.677+0000"),
+    "group_req" : [
+
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("648b9fd9e2afd63bd9ec6778"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("648b9f7fe2afd63bd9ec6769")
+        },
+        {
+            "_id" : ObjectId("648ba1efe2afd63bd9ec68a3"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("648ba1e5e2afd63bd9ec688b")
+        },
+        {
+            "_id" : ObjectId("6495da2795c07d44a914b979"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da1c95c07d44a914b962")
+        },
+        {
+            "_id" : ObjectId("6495da6c95c07d44a914babe"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da6395c07d44a914baa7")
+        },
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bdaf"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("648ba688e2afd63bd9ec68e3"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("642d19c13d9b558af7320d48"),
+    "invites" : [
+        {
+            "_id" : ObjectId("648ba688e2afd63bd9ec68e4"),
+            "sender_id" : ObjectId("648b9cf5e2afd63bd9ec675f"),
+            "group_id" : ObjectId("648ba67ce2afd63bd9ec68de")
+        },
+        {
+            "_id" : ObjectId("649aae1c95c07d44a914bdd7"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-16T00:02:16.807+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:36.465+0000"),
+    "__v" : NumberInt(1)
+}
+{
+    "_id" : ObjectId("648ba97de2afd63bd9ec6904"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("648b9cf5e2afd63bd9ec675f"),
+    "group_req" : [
+        {
+            "_id" : ObjectId("648ba97de2afd63bd9ec6905"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("648ba67ce2afd63bd9ec68de")
+        }
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("6495784b95c07d44a914b92e"),
+            "sender_id" : ObjectId("6495744d95c07d44a914b8e1"),
+            "group_id" : ObjectId("6495783795c07d44a914b928")
+        },
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bdbe"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-16T00:14:53.179+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:35.781+0000"),
+    "__v" : NumberInt(2)
+}
+{
+    "_id" : ObjectId("649352cd59f5caefb05ba8e0"),
+    "user_id" : ObjectId("64930814f74dab2b6486e3e3"),
+    "__v" : NumberInt(23),
+    "badge" : NumberInt(2),
+    "createdAt" : ISODate("2023-06-21T19:43:09.867+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:35.545+0000"),
+    "group_req" : [
+        {
+            "_id" : ObjectId("649a759195c07d44a914bd30"),
+            "sender_id" : ObjectId("649a704d95c07d44a914bd12"),
+            "group_id" : ObjectId("6495db2495c07d44a914baca")
+        }
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bda3"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("6495764359f5caefb09cf8de"),
+    "user_id" : ObjectId("6495744d95c07d44a914b8e1"),
+    "__v" : NumberInt(7),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-23T10:38:59.042+0000"),
+    "updatedAt" : ISODate("2023-08-18T11:04:53.657+0000"),
+    "group_req" : [
+
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("6495da2695c07d44a914b96d"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da1c95c07d44a914b962")
+        },
+        {
+            "_id" : ObjectId("649a804495c07d44a914bd5f"),
+            "sender_id" : ObjectId("649a7f5995c07d44a914bd51"),
+            "group_id" : ObjectId("649a803295c07d44a914bd59")
+        }
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("6495d9ae95c07d44a914b943"),
+    "badge" : NumberInt(2),
+    "user_id" : ObjectId("648ba5dce2afd63bd9ec68cf"),
+    "invites" : [
+        {
+            "_id" : ObjectId("6495da2695c07d44a914b967"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da1c95c07d44a914b962")
+        },
+        {
+            "_id" : ObjectId("6495da6b95c07d44a914baac"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+            "group_id" : ObjectId("6495da6395c07d44a914baa7")
+        },
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bd96"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-23T17:43:10.519+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:35.437+0000"),
+    "__v" : NumberInt(3)
+}
+{
+    "_id" : ObjectId("64998f1d59f5caefb0197464"),
+    "user_id" : ObjectId("64998efc95c07d44a914bd0b"),
+    "__v" : NumberInt(1),
+    "badge" : NumberInt(1),
+    "createdAt" : ISODate("2023-06-26T13:14:05.768+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:35.595+0000"),
+    "group_req" : [
+
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bda9"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("649a762159f5caefb0352be7"),
+    "user_id" : ObjectId("649a704d95c07d44a914bd12"),
+    "__v" : NumberInt(1),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-27T05:39:45.391+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:50:40.437+0000"),
+    "group_req" : [
+
+    ],
+    "invites" : [
+
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("649a805359f5caefb0368200"),
+    "user_id" : ObjectId("649a7f5995c07d44a914bd51"),
+    "__v" : NumberInt(1),
+    "badge" : NumberInt(1),
+    "createdAt" : ISODate("2023-06-27T06:23:15.017+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:36.537+0000"),
+    "group_req" : [
+
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1c95c07d44a914bde1"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("649a9e0859f5caefb03a0bb2"),
+    "user_id" : ObjectId("649a88b495c07d44a914bd6b"),
+    "__v" : NumberInt(10),
+    "badge" : NumberInt(10),
+    "createdAt" : ISODate("2023-06-27T08:30:00.036+0000"),
+    "updatedAt" : ISODate("2023-08-23T07:36:01.493+0000"),
+    "group_req" : [
+        {
+            "_id" : ObjectId("64d2182300b5dd53b2fa5a7b"),
+            "sender_id" : ObjectId("64cdfb1b3a1163fdc99d7dfa"),
+            "group_id" : ObjectId("649aaea295c07d44a914bdee")
+        }
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("64d47512f949da35bc83d8d0"),
+            "sender_id" : ObjectId("64d360b8b8fa802dfc668c29"),
+            "group_id" : ObjectId("64d474f6f949da35bc83d8c9")
+        },
+        {
+            "_id" : ObjectId("64d62c7aa1d2f779c3d13a9e"),
+            "sender_id" : ObjectId("6495744d95c07d44a914b8e1"),
+            "group_id" : ObjectId("64d628c1a1d2f779c3d13a97")
+        },
+        {
+            "_id" : ObjectId("64df4e2e90e78fd20b11d818"),
+            "sender_id" : ObjectId("6495744d95c07d44a914b8e1"),
+            "group_id" : ObjectId("6495783795c07d44a914b928")
+        }
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("649aae1b95c07d44a914bd99"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("6495df9e95c07d44a914bb1a"),
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bd9a"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-27T09:38:35.464+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:35.464+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649aae1b95c07d44a914bdd0"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("6419563bb3bb0a1a5742dad1"),
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1b95c07d44a914bdd1"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-27T09:38:35.927+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:35.927+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649aae1c95c07d44a914bddd"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("63ee5cadbb9057146c1ce9d6"),
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1c95c07d44a914bdde"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-27T09:38:36.514+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:36.514+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649aae1c95c07d44a914bde7"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("641dbacdfca0fc91b946ab3b"),
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1c95c07d44a914bde8"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-27T09:38:36.600+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:36.600+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649aae1c95c07d44a914bdeb"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("64173349b3bb0a1a5742da3e"),
+    "invites" : [
+        {
+            "_id" : ObjectId("649aae1c95c07d44a914bdec"),
+            "sender_id" : ObjectId("649a88b495c07d44a914bd6b"),
+            "group_id" : ObjectId("649aadc395c07d44a914bd91")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-06-27T09:38:36.625+0000"),
+    "updatedAt" : ISODate("2023-06-27T09:38:36.625+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649ab44859f5caefb03cbceb"),
+    "user_id" : ObjectId("649ab2b995c07d44a914bdfb"),
+    "__v" : NumberInt(1),
+    "badge" : NumberInt(1),
+    "createdAt" : ISODate("2023-06-27T10:04:56.667+0000"),
+    "updatedAt" : ISODate("2023-06-27T11:37:23.614+0000"),
+    "group_req" : [
+        {
+            "_id" : ObjectId("649ac9f37df317ccc536d6e4"),
+            "sender_id" : ObjectId("649ac9997df317ccc536d6e2"),
+            "group_id" : ObjectId("649ab4227df317ccc536d6ca")
+        }
+    ],
+    "invites" : [
+
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("649aca6e59f5caefb03f730e"),
+    "user_id" : ObjectId("649ac9997df317ccc536d6e2"),
+    "__v" : NumberInt(2),
+    "badge" : NumberInt(2),
+    "createdAt" : ISODate("2023-06-27T11:39:26.049+0000"),
+    "updatedAt" : ISODate("2023-08-10T05:26:42.812+0000"),
+    "group_req" : [
+        {
+            "_id" : ObjectId("64d0d19f00b5dd53b2fa5a76"),
+            "sender_id" : ObjectId("64cdfb1b3a1163fdc99d7dfa"),
+            "group_id" : ObjectId("649aca5d7df317ccc536d6f2")
+        }
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("64d47512f949da35bc83d8d3"),
+            "sender_id" : ObjectId("64d360b8b8fa802dfc668c29"),
+            "group_id" : ObjectId("64d474f6f949da35bc83d8c9")
+        }
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("649bb5c09767f01067228517"),
+    "user_id" : ObjectId("649ae8e87df317ccc536dfb5"),
+    "__v" : NumberInt(3),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-28T04:23:28.040+0000"),
+    "updatedAt" : ISODate("2023-07-28T14:54:03.221+0000"),
+    "group_req" : [
+
+    ],
+    "invites" : [
+
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("64d0d5c84e791b59c4c6e43a"),
+    "user_id" : ObjectId("64cdfb1b3a1163fdc99d7dfa"),
+    "__v" : NumberInt(0),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-07T11:30:16.420+0000"),
+    "updatedAt" : ISODate("2023-08-07T11:30:22.669+0000")
+}
+{
+    "_id" : ObjectId("64d36fbde075485d87664f5d"),
+    "user_id" : ObjectId("64d360b8b8fa802dfc668c29"),
+    "__v" : NumberInt(2),
+    "badge" : NumberInt(2),
+    "createdAt" : ISODate("2023-08-09T10:51:41.927+0000"),
+    "updatedAt" : ISODate("2023-08-18T11:01:24.160+0000"),
+    "group_req" : [
+
+    ],
+    "invites" : [
+
+    ],
+    "simple" : [
+        {
+            "time" : NumberInt(1691756976),
+            "_id" : ObjectId("64d629b0a1d2f779c3d13a9a"),
+            "reciver_id" : ObjectId("6495744d95c07d44a914b8e1"),
+            "group_id" : ObjectId("64d474f6f949da35bc83d8c9"),
+            "status" : "accepted"
+        },
+        {
+            "time" : NumberInt(1692356484),
+            "_id" : ObjectId("64df4f8490e78fd20b11d829"),
+            "reciver_id" : ObjectId("6495744d95c07d44a914b8e1"),
+            "group_id" : ObjectId("64d473c9f949da35bc83d8c4"),
+            "status" : "rejected"
+        }
+    ]
+}
+{
+    "_id" : ObjectId("64d4bcda97f32997f4ca8e08"),
+    "user_id" : ObjectId("64d4bc31f949da35bc83d8d7"),
+    "__v" : NumberInt(4),
+    "badge" : NumberInt(4),
+    "createdAt" : ISODate("2023-08-10T10:32:58.690+0000"),
+    "updatedAt" : ISODate("2023-08-24T12:01:21.122+0000"),
+    "group_req" : [
+        {
+            "_id" : ObjectId("64dda843d6deda24b4ff5352"),
+            "sender_id" : ObjectId("64dda77ed6deda24b4ff5346"),
+            "group_id" : ObjectId("64d4bc8cf949da35bc83d8dc")
+        },
+        {
+            "_id" : ObjectId("64df114190e78fd20b11d765"),
+            "sender_id" : ObjectId("6495744d95c07d44a914b8e1"),
+            "group_id" : ObjectId("64d4bc8cf949da35bc83d8dc")
+        },
+        {
+            "_id" : ObjectId("64df227890e78fd20b11d7e2"),
+            "sender_id" : ObjectId("64de1fd3d6deda24b4ff53b3"),
+            "group_id" : ObjectId("64d4bc8cf949da35bc83d8dc")
+        },
+        {
+            "_id" : ObjectId("64e746917094a350b8c748d5"),
+            "sender_id" : ObjectId("64df50a690e78fd20b11d832"),
+            "group_id" : ObjectId("64d4bc8cf949da35bc83d8dc")
+        }
+    ],
+    "invites" : [
+
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("64d4c1d297f32997f4cffed4"),
+    "user_id" : ObjectId("64d4c09df949da35bc83d8de"),
+    "__v" : NumberInt(0),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-10T10:54:10.851+0000"),
+    "updatedAt" : ISODate("2023-08-10T10:54:10.851+0000")
+}
+{
+    "_id" : ObjectId("64ddb23f97f32997f45d7546"),
+    "user_id" : ObjectId("64dda77ed6deda24b4ff5346"),
+    "__v" : NumberInt(0),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-17T05:38:07.361+0000"),
+    "updatedAt" : ISODate("2023-08-17T07:55:35.622+0000")
+}
+{
+    "_id" : ObjectId("64de1e77d6deda24b4ff53ad"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("64ddfd02d6deda24b4ff53a1"),
+    "invites" : [
+        {
+            "_id" : ObjectId("64de1e77d6deda24b4ff53ae"),
+            "sender_id" : ObjectId("64de1dc9d6deda24b4ff53a6"),
+            "group_id" : ObjectId("64de1e5ad6deda24b4ff53a7")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-08-17T13:19:51.212+0000"),
+    "updatedAt" : ISODate("2023-08-17T13:19:51.212+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64de1e8897f32997f4e0ed57"),
+    "user_id" : ObjectId("64de1dc9d6deda24b4ff53a6"),
+    "__v" : NumberInt(0),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-17T13:20:08.743+0000"),
+    "updatedAt" : ISODate("2023-08-17T13:20:47.723+0000")
+}
+{
+    "_id" : ObjectId("64df23be97f32997f407c1c0"),
+    "user_id" : ObjectId("64de1fd3d6deda24b4ff53b3"),
+    "__v" : NumberInt(0),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-18T07:54:38.623+0000"),
+    "updatedAt" : ISODate("2023-08-18T07:54:38.700+0000")
+}
+{
+    "_id" : ObjectId("64df521997f32997f440090d"),
+    "user_id" : ObjectId("64df518290e78fd20b11d83e"),
+    "__v" : NumberInt(0),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-18T11:12:25.478+0000"),
+    "updatedAt" : ISODate("2023-08-18T11:12:25.478+0000")
+}
+{
+    "_id" : ObjectId("64e743ba1a4ce3680a3e5056"),
+    "user_id" : ObjectId("64df50a690e78fd20b11d832"),
+    "__v" : NumberInt(0),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-24T11:49:14.692+0000"),
+    "updatedAt" : ISODate("2023-08-24T12:05:37.430+0000")
+}
+{
+    "_id" : ObjectId("64e74b791a4ce3680a4a7aae"),
+    "user_id" : ObjectId("64e7370752592ecf228324e6"),
+    "__v" : NumberInt(1),
+    "badge" : NumberInt(1),
+    "createdAt" : ISODate("2023-08-24T12:22:17.347+0000"),
+    "updatedAt" : ISODate("2023-08-29T07:53:42.803+0000"),
+    "group_req" : [
+
+    ],
+    "invites" : [
+        {
+            "_id" : ObjectId("64eda406392526d75c633933"),
+            "sender_id" : ObjectId("64ed9893392526d75c6338f9"),
+            "group_id" : ObjectId("64ed9fa6392526d75c633920")
+        }
+    ],
+    "simple" : [
+
+    ]
+}
+{
+    "_id" : ObjectId("64ed9e74217b379ed4533aaa"),
+    "user_id" : ObjectId("64ed9893392526d75c6338f9"),
+    "__v" : NumberInt(0),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-29T07:29:56.007+0000"),
+    "updatedAt" : ISODate("2023-08-29T07:29:56.007+0000")
+}
+{
+    "_id" : ObjectId("64eda2db392526d75c633929"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("64b7d647aa8c3c4b2ceadebe"),
+    "invites" : [
+        {
+            "_id" : ObjectId("64eda2db392526d75c63392a"),
+            "sender_id" : ObjectId("64ed9893392526d75c6338f9"),
+            "group_id" : ObjectId("64ed9fa6392526d75c633920")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-08-29T07:48:43.333+0000"),
+    "updatedAt" : ISODate("2023-08-29T07:48:43.333+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eda406392526d75c63392f"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("64df54d390e78fd20b11d85a"),
+    "invites" : [
+        {
+            "_id" : ObjectId("64eda406392526d75c633930"),
+            "sender_id" : ObjectId("64ed9893392526d75c6338f9"),
+            "group_id" : ObjectId("64ed9fa6392526d75c633920")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-08-29T07:53:42.276+0000"),
+    "updatedAt" : ISODate("2023-08-29T07:53:42.276+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64edaaab392526d75c633970"),
+    "badge" : NumberInt(1),
+    "user_id" : ObjectId("64bf5fd8ca96233ef87430bc"),
+    "invites" : [
+        {
+            "_id" : ObjectId("64edaaab392526d75c633971"),
+            "sender_id" : ObjectId("64ed9893392526d75c6338f9"),
+            "group_id" : ObjectId("64ed9fa6392526d75c633920")
+        }
+    ],
+    "group_req" : [
+
+    ],
+    "simple" : [
+
+    ],
+    "createdAt" : ISODate("2023-08-29T08:22:03.918+0000"),
+    "updatedAt" : ISODate("2023-08-29T08:22:03.918+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64edaf02217b379ed46c0e2e"),
+    "user_id" : ObjectId("64edae84392526d75c63398c"),
+    "__v" : NumberInt(0),
+    "badge" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-29T08:40:34.572+0000"),
+    "updatedAt" : ISODate("2023-08-29T08:40:34.572+0000")
+}

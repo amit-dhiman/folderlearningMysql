@@ -1,0 +1,1609 @@
+{
+    "_id" : ObjectId("60c3595e5c2fceef7269f677"),
+    "user_id" : ObjectId("60c358dab04cb08dbdc5ee43"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-06-11T12:38:54.141+0000"),
+    "physical" : [
+        "TortureTorture"
+    ],
+    "updatedAt" : ISODate("2021-06-14T11:52:23.611+0000"),
+    "mental" : [
+        "Darkness Phobia"
+    ]
+}
+{
+    "_id" : ObjectId("60ec15f6962a0bd48c5decd4"),
+    "user_id" : ObjectId("60d4113a21a64ecb685bebac"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-07-12T10:14:13.673+0000"),
+    "mental" : [
+        "Anxiety",
+        "Bi-Polar"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Hallucinogens",
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2021-07-12T10:14:13.673+0000")
+}
+{
+    "_id" : ObjectId("60ec2fe266120e7b0d6fcedc"),
+    "user_id" : ObjectId("60ec25f0481b560d024e2d6a"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-07-12T12:04:50.723+0000"),
+    "mental" : [
+        "OCD"
+    ],
+    "physical" : [
+        "Heart Condition",
+        "COVID-19",
+        "Nerve Damage"
+    ],
+    "substance_abuse" : [
+        "Opioids",
+        "Hallucinogens"
+    ],
+    "updatedAt" : ISODate("2021-07-12T12:04:50.723+0000")
+}
+{
+    "_id" : ObjectId("60ec415d66120e7b0d7526c3"),
+    "user_id" : ObjectId("60ec3bb943857a108e2c5e9c"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-07-12T13:19:25.672+0000"),
+    "mental" : [
+        "Serious Mental Illness"
+    ],
+    "physical" : [
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2021-07-12T13:19:25.672+0000")
+}
+{
+    "_id" : ObjectId("60ed3ca466120e7b0dc677a3"),
+    "user_id" : ObjectId("60ed3c38258dfc3077c5fa8e"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-07-13T07:11:32.149+0000"),
+    "mental" : [
+        "Anxiety"
+    ],
+    "physical" : [
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Marijuana Synthetics",
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2021-07-13T07:11:32.149+0000")
+}
+{
+    "_id" : ObjectId("60ef33a8aadc2f1f66968dcd"),
+    "user_id" : ObjectId("60ef332b258dfc3077c5fa9b"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-07-14T18:57:44.851+0000"),
+    "mental" : [
+        "OCD"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2021-07-14T18:57:44.851+0000")
+}
+{
+    "_id" : ObjectId("60ef750daadc2f1f66aaccdc"),
+    "user_id" : ObjectId("60ef74a8258dfc3077c5fa9c"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-07-14T23:36:45.067+0000"),
+    "mental" : [
+        "OCD"
+    ],
+    "physical" : [
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2022-06-27T22:26:48.980+0000")
+}
+{
+    "_id" : ObjectId("6100670b00a8a9bef6a06c5f"),
+    "user_id" : ObjectId("610066c7258dfc3077c5fa9f"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-07-27T20:05:31.858+0000"),
+    "mental" : [
+        "OCD",
+        "ADHD"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Heart Condition",
+        "Disabled",
+        "Weight Issues",
+        "Nerve Damage",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2022-06-16T20:28:36.959+0000")
+}
+{
+    "_id" : ObjectId("610ab3fe3b3f82c0e730048e"),
+    "user_id" : ObjectId("60f0f985258dfc3077c5fa9e"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-08-04T15:36:29.998+0000"),
+    "mental" : [
+        "Anxiety"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Opioids",
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2022-11-10T10:41:06.234+0000")
+}
+{
+    "_id" : ObjectId("6112643b8b484ada59dad48d"),
+    "user_id" : ObjectId("611263e8258dfc3077c5faa2"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-08-10T11:34:19.519+0000"),
+    "mental" : [
+        "Depression"
+    ],
+    "physical" : [
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2021-08-10T11:34:19.519+0000")
+}
+{
+    "_id" : ObjectId("6114ca05e146f13e8c915a52"),
+    "user_id" : ObjectId("6114c9da688b95f5e5d2ce7f"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-08-12T07:13:09.652+0000"),
+    "mental" : [
+        "Anxiety"
+    ],
+    "physical" : [
+        "Nerve Damage"
+    ],
+    "substance_abuse" : [
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2021-08-12T07:13:09.652+0000")
+}
+{
+    "_id" : ObjectId("611aedd1262a2ee158eb74de"),
+    "user_id" : ObjectId("611aedb2688b95f5e5d2ce8f"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2021-08-16T22:59:29.174+0000"),
+    "mental" : [
+        "Anxiety"
+    ],
+    "physical" : [
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2021-08-16T22:59:29.174+0000")
+}
+{
+    "_id" : ObjectId("6298457bbfe69d5b66b5ac8d"),
+    "user_id" : ObjectId("629844e03ae99436d432b64d"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-06-02T05:07:07.836+0000"),
+    "mental" : [
+        "Depression",
+        "OCD",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Heart Condition",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2022-06-02T05:07:07.836+0000")
+}
+{
+    "_id" : ObjectId("629f7844811b15844780eaf8"),
+    "user_id" : ObjectId("629f76f0c46e0bcdef38271d"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-06-07T16:09:40.687+0000"),
+    "mental" : [
+        "OCD"
+    ],
+    "physical" : [
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2022-06-07T16:09:40.687+0000")
+}
+{
+    "_id" : ObjectId("629f7e19811b1584478256f2"),
+    "user_id" : ObjectId("629f7de4c46e0bcdef382724"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-06-07T16:34:33.001+0000"),
+    "mental" : [
+        "OCD"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2022-06-07T16:34:33.001+0000")
+}
+{
+    "_id" : ObjectId("62ac2cba8d2582eae43ea961"),
+    "user_id" : ObjectId("62ac2c96c46e0bcdef382743"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-06-17T07:26:49.984+0000"),
+    "mental" : [
+        "OCD",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Weight Issues",
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2022-06-17T07:26:49.984+0000")
+}
+{
+    "_id" : ObjectId("62b190021ae327f7e0993f24"),
+    "user_id" : ObjectId("62b18fe2df04a706129b3056"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-06-21T09:31:46.395+0000"),
+    "mental" : [
+        "ADHD"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2022-07-01T08:00:48.447+0000")
+}
+{
+    "_id" : ObjectId("62ba274044c351284ea05d81"),
+    "user_id" : ObjectId("62ba26c9df04a706129b308a"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-06-27T21:55:12.427+0000"),
+    "mental" : [
+        "Bi-Polar",
+        "OCD"
+    ],
+    "physical" : [
+        "Arthritis"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2022-06-27T21:55:12.427+0000")
+}
+{
+    "_id" : ObjectId("62ba370544c351284ea45f01"),
+    "user_id" : ObjectId("62ba36d9df04a706129b309a"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-06-27T23:02:29.971+0000"),
+    "mental" : [
+        "Bi-Polar"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2022-06-27T23:02:29.971+0000")
+}
+{
+    "_id" : ObjectId("62bc499d44c351284e2c4a38"),
+    "user_id" : ObjectId("62bc4970df04a706129b309d"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-06-29T12:46:21.669+0000"),
+    "mental" : [
+        "OCD",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2022-06-29T12:46:21.669+0000")
+}
+{
+    "_id" : ObjectId("62c867498d7d54df28924a66"),
+    "user_id" : ObjectId("62c866caac5fdfe6b769cef8"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-07-08T17:20:09.454+0000"),
+    "mental" : [
+        "ADHD"
+    ],
+    "physical" : [
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2022-07-08T17:25:38.469+0000")
+}
+{
+    "_id" : ObjectId("62c86fd120b91ea6abb506dd"),
+    "user_id" : ObjectId("60ef7638258dfc3077c5fa9d"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-07-08T17:56:33.851+0000"),
+    "mental" : [
+        "Depression"
+    ],
+    "updatedAt" : ISODate("2022-09-16T04:47:09.714+0000"),
+    "physical" : [
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ]
+}
+{
+    "_id" : ObjectId("62dfed927022cdf9e1961c75"),
+    "user_id" : ObjectId("62dfed67eeb6b749566da3e3"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-07-26T13:35:14.044+0000"),
+    "mental" : [
+        "ADHD"
+    ],
+    "physical" : [
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2022-07-26T13:35:14.044+0000")
+}
+{
+    "_id" : ObjectId("62e02424ab47924c6ead399c"),
+    "user_id" : ObjectId("62e02354eeb6b749566da3e6"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-07-26T17:28:04.472+0000"),
+    "mental" : [
+        "OCD"
+    ],
+    "physical" : [
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2022-07-26T17:28:04.472+0000")
+}
+{
+    "_id" : ObjectId("62ff5a083f24616b52a4d0c1"),
+    "user_id" : ObjectId("62ff59c52b0ae7aef3599ffa"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-08-19T09:38:16.789+0000"),
+    "mental" : [
+        "Anxiety"
+    ],
+    "physical" : [
+        "Arthritis"
+    ],
+    "substance_abuse" : [
+        "Marijuana Synthetics"
+    ],
+    "updatedAt" : ISODate("2022-08-19T09:38:16.789+0000")
+}
+{
+    "_id" : ObjectId("6303e28f47544761b50acf29"),
+    "user_id" : ObjectId("6303df70effea15a94f9ff11"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-08-22T20:09:51.110+0000"),
+    "mental" : [
+        "Depression",
+        "Anxiety"
+    ],
+    "updatedAt" : ISODate("2022-08-22T20:10:05.202+0000"),
+    "physical" : [
+        "COVID-19",
+        "Arthritis"
+    ],
+    "substance_abuse" : [
+        "Marijuana Synthetics",
+        "Marijuana"
+    ]
+}
+{
+    "_id" : ObjectId("632329c98ff694e4b02956e9"),
+    "user_id" : ObjectId("63232820effea15a94f9ff26"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-09-15T13:34:01.192+0000"),
+    "mental" : [
+        "ADHD"
+    ],
+    "physical" : [
+        "Arthritis"
+    ],
+    "substance_abuse" : [
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2022-09-15T13:34:01.192+0000")
+}
+{
+    "_id" : ObjectId("6323a4308ff694e4b04653bc"),
+    "user_id" : ObjectId("6323a400effea15a94f9ff2d"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-09-15T22:16:16.127+0000"),
+    "mental" : [
+        "Depression",
+        "OCD"
+    ],
+    "physical" : [
+        "Heart Condition",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Marijuana Synthetics",
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2022-09-15T22:16:16.127+0000")
+}
+{
+    "_id" : ObjectId("6328108e8ff694e4b04dca4c"),
+    "user_id" : ObjectId("62bec124960beae67f10c7ab"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-09-19T06:47:42.451+0000"),
+    "mental" : [
+        "OCD",
+        "ADHD"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Heroin",
+        "Cocaine",
+        "Opioids"
+    ],
+    "updatedAt" : ISODate("2022-09-19T06:47:42.451+0000")
+}
+{
+    "_id" : ObjectId("632812088ff694e4b04e25f2"),
+    "user_id" : ObjectId("6328115b5e49e221b42f5c31"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-09-19T06:54:00.747+0000"),
+    "mental" : [
+        "OCD"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2022-09-19T06:54:00.747+0000")
+}
+{
+    "_id" : ObjectId("6348ef7eae24ae1b0b87e664"),
+    "user_id" : ObjectId("6348ee8cdc0fa43aaf14118d"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-10-14T05:11:26.758+0000"),
+    "mental" : [
+        "Serious Mental Illness"
+    ],
+    "physical" : [
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2022-10-14T05:11:26.758+0000")
+}
+{
+    "_id" : ObjectId("63580e81883bafa97334e158"),
+    "user_id" : ObjectId("63580dfe2874bb9d2cebb0b4"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-10-25T16:27:45.878+0000"),
+    "mental" : [
+        "Depression",
+        "Anxiety",
+        "ADHD",
+        "Bi-Polar"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Marijuana Synthetics",
+        "Cocaine",
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2022-10-25T16:35:22.830+0000")
+}
+{
+    "_id" : ObjectId("635830eb883bafa9733c91b1"),
+    "user_id" : ObjectId("635830ab2874bb9d2cebb0bd"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-10-25T18:54:35.518+0000"),
+    "mental" : [
+        "Depression",
+        "Bi-Polar",
+        "Anxiety",
+        "ADHD"
+    ],
+    "physical" : [
+        "Arthritis",
+        "COVID-19",
+        "Heart Condition",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2022-10-25T18:54:35.518+0000")
+}
+{
+    "_id" : ObjectId("635f2d25883bafa973be78a0"),
+    "user_id" : ObjectId("635f29b620a1277be3653cab"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-10-31T02:04:21.207+0000"),
+    "substance_abuse" : [
+        "Heroin",
+        "Marijuana Synthetics",
+        "Hallucinogens"
+    ],
+    "updatedAt" : ISODate("2022-11-21T18:43:04.566+0000"),
+    "mental" : [
+        "Anxiety",
+        "Depression"
+    ],
+    "physical" : [
+        "COVID-19",
+        "Arthritis"
+    ]
+}
+{
+    "_id" : ObjectId("63612772883bafa9732bd77a"),
+    "user_id" : ObjectId("63612696be3fdea2df514342"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-11-01T14:04:34.972+0000"),
+    "mental" : [
+        "Depression"
+    ],
+    "physical" : [
+        "Arthritis"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2022-11-01T14:04:34.972+0000")
+}
+{
+    "_id" : ObjectId("636bd5ab883bafa9739cbc64"),
+    "user_id" : ObjectId("636bd55985efceacc46c1e2a"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-11-09T16:30:35.058+0000"),
+    "mental" : [
+        "Depression",
+        "OCD",
+        "ADHD",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Weight Issues",
+        "Nerve Damage",
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Heroin",
+        "Opioids"
+    ],
+    "updatedAt" : ISODate("2022-11-09T16:30:35.058+0000")
+}
+{
+    "_id" : ObjectId("636bdc46883bafa9739e4195"),
+    "user_id" : ObjectId("636bdbf485efceacc46c1e44"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-11-09T16:58:46.092+0000"),
+    "mental" : [
+        "Depression",
+        "OCD",
+        "Anxiety",
+        "ADHD"
+    ],
+    "physical" : [
+        "Weight Issues",
+        "Heart Condition",
+        "Arthritis"
+    ],
+    "substance_abuse" : [
+        "Heroin",
+        "Opioids"
+    ],
+    "updatedAt" : ISODate("2022-11-09T16:58:46.092+0000")
+}
+{
+    "_id" : ObjectId("636be243883bafa9739fb0fa"),
+    "user_id" : ObjectId("636be20e85efceacc46c1e49"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-11-09T17:24:19.272+0000"),
+    "mental" : [
+        "Depression",
+        "Anxiety",
+        "OCD",
+        "ADHD"
+    ],
+    "physical" : [
+        "Weight Issues",
+        "Arthritis",
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Opioids",
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2022-11-09T17:24:19.272+0000")
+}
+{
+    "_id" : ObjectId("636c1e34883bafa973adb87a"),
+    "user_id" : ObjectId("636c1df785efceacc46c1e75"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-11-09T21:40:04.712+0000"),
+    "mental" : [
+        "Bi-Polar"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2022-11-09T21:40:04.712+0000")
+}
+{
+    "_id" : ObjectId("637f6bc442e047a2860aa399"),
+    "user_id" : ObjectId("637f5f3a45a98664616ff401"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2022-11-24T13:04:04.211+0000"),
+    "mental" : [
+        "ADHD",
+        "Depression"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Heart Condition",
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2022-12-09T05:08:48.591+0000")
+}
+{
+    "_id" : ObjectId("63c18e9907cd2aa04d3bfaa5"),
+    "user_id" : ObjectId("63c18d705ebb548110a09304"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-01-13T17:02:17.896+0000"),
+    "mental" : [
+        "ADHD",
+        "Depression",
+        "OCD",
+        "Bi-Polar",
+        "Anxiety",
+        "Serious Mental Illness"
+    ],
+    "physical" : [
+        "Heart Condition",
+        "Arthritis",
+        "Weight Issues",
+        "Nerve Damage",
+        "Disabled",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Heroin",
+        "Hallucinogens",
+        "Marijuana Synthetics",
+        "Opioids"
+    ],
+    "updatedAt" : ISODate("2023-02-10T01:53:35.731+0000")
+}
+{
+    "_id" : ObjectId("63dcfee476db4e220a07d1a6"),
+    "user_id" : ObjectId("63dcfea876a90a65b639086e"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-02-03T12:32:36.135+0000"),
+    "mental" : [
+        "Serious Mental Illness",
+        "ADHD"
+    ],
+    "physical" : [
+        "Nerve Damage",
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2023-02-03T12:32:36.135+0000")
+}
+{
+    "_id" : ObjectId("63e236c976db4e220a164c37"),
+    "user_id" : ObjectId("63e235c176a90a65b6390870"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-02-07T11:32:25.673+0000"),
+    "mental" : [
+        "Depression",
+        "Anxiety",
+        "OCD",
+        "ADHD",
+        "Bi-Polar",
+        "Serious Mental Illness"
+    ],
+    "physical" : [
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Marijuana Synthetics",
+        "Heroin",
+        "Opioids",
+        "Hallucinogens",
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2023-02-07T11:32:25.673+0000")
+}
+{
+    "_id" : ObjectId("63e29eac76db4e220a2bc180"),
+    "user_id" : ObjectId("63e2974476a90a65b6390890"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-02-07T18:55:40.282+0000"),
+    "mental" : [
+        "Depression"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2023-02-07T18:55:40.282+0000")
+}
+{
+    "_id" : ObjectId("63e9e89776db4e220aa44ddf"),
+    "user_id" : ObjectId("63e9e8661a51b49b7050e201"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-02-13T07:36:55.490+0000"),
+    "mental" : [
+        "Bi-Polar"
+    ],
+    "physical" : [
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2023-02-13T07:36:55.490+0000")
+}
+{
+    "_id" : ObjectId("63ea270776db4e220ab11630"),
+    "user_id" : ObjectId("63ea26d51a51b49b7050e206"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-02-13T12:03:19.071+0000"),
+    "mental" : [
+        "Depression",
+        "OCD",
+        "Anxiety",
+        "Bi-Polar",
+        "ADHD",
+        "Serious Mental Illness"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Heart Condition",
+        "Weight Issues",
+        "COVID-19",
+        "Nerve Damage",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Cocaine",
+        "Marijuana Synthetics",
+        "Opioids",
+        "Heroin",
+        "Hallucinogens"
+    ],
+    "updatedAt" : ISODate("2023-02-13T12:03:19.071+0000")
+}
+{
+    "_id" : ObjectId("63ea281e76db4e220ab150b4"),
+    "user_id" : ObjectId("63ea27f51a51b49b7050e20a"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-02-13T12:07:58.153+0000"),
+    "mental" : [
+        "OCD",
+        "Bi-Polar",
+        "Serious Mental Illness"
+    ],
+    "physical" : [
+        "COVID-19",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Cocaine",
+        "Opioids"
+    ],
+    "updatedAt" : ISODate("2023-02-13T12:07:58.153+0000")
+}
+{
+    "_id" : ObjectId("63ea33ae76db4e220ab3ab8c"),
+    "user_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-02-13T12:57:18.020+0000"),
+    "mental" : [
+        "Anxiety",
+        "Depression"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2023-02-13T12:57:18.020+0000")
+}
+{
+    "_id" : ObjectId("63ee15d376db4e220a7b558e"),
+    "user_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-02-16T11:38:59.466+0000"),
+    "mental" : [
+        "ADHD",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Arthritis",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Heroin",
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2023-02-16T11:38:59.466+0000")
+}
+{
+    "_id" : ObjectId("63ee5e7b76db4e220a8a3b43"),
+    "user_id" : ObjectId("63ee5cadbb9057146c1ce9d6"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-02-16T16:48:59.249+0000"),
+    "mental" : [
+        "ADHD",
+        "Serious Mental Illness"
+    ],
+    "physical" : [
+        "Disabled",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Heroin",
+        "Hallucinogens"
+    ],
+    "updatedAt" : ISODate("2023-02-16T16:48:59.249+0000")
+}
+{
+    "_id" : ObjectId("63ee5ec976db4e220a8a4aa1"),
+    "user_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-02-16T16:50:17.065+0000"),
+    "mental" : [
+        "Serious Mental Illness",
+        "ADHD"
+    ],
+    "physical" : [
+        "Nerve Damage",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Hallucinogens",
+        "Opioids"
+    ],
+    "updatedAt" : ISODate("2023-06-08T05:57:28.892+0000")
+}
+{
+    "_id" : ObjectId("640ba002ae863c8bd8ad65fa"),
+    "user_id" : ObjectId("640b9fb7028cc1c7dab89392"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-03-10T21:24:18.352+0000"),
+    "mental" : [
+        "Anxiety"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2023-03-10T21:24:18.352+0000")
+}
+{
+    "_id" : ObjectId("64173371ae863c8bd80a5b11"),
+    "user_id" : ObjectId("64173349b3bb0a1a5742da3e"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-03-19T16:08:17.668+0000"),
+    "mental" : [
+        "Depression",
+        "ADHD",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Nerve Damage",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Marijuana Synthetics",
+        "Hallucinogens"
+    ],
+    "updatedAt" : ISODate("2023-03-19T16:08:17.668+0000")
+}
+{
+    "_id" : ObjectId("64195667ae863c8bd87caaef"),
+    "user_id" : ObjectId("6419563bb3bb0a1a5742dad1"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-03-21T07:01:59.337+0000"),
+    "mental" : [
+        "Anxiety"
+    ],
+    "physical" : [
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Cocaine",
+        "Opioids",
+        "Hallucinogens",
+        "Heroin",
+        "Marijuana Synthetics"
+    ],
+    "updatedAt" : ISODate("2023-03-21T07:01:59.337+0000")
+}
+{
+    "_id" : ObjectId("641dbaf4ae863c8bd8706ec4"),
+    "user_id" : ObjectId("641dbacdfca0fc91b946ab3b"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-03-24T15:00:04.759+0000"),
+    "mental" : [
+        "Depression"
+    ],
+    "physical" : [
+        "Weight Issues",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2023-03-24T15:00:04.759+0000")
+}
+{
+    "_id" : ObjectId("642d19f62601e9e182984fab"),
+    "user_id" : ObjectId("642d19c13d9b558af7320d48"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-04-05T06:49:26.159+0000"),
+    "mental" : [
+        "Depression",
+        "OCD"
+    ],
+    "physical" : [
+        "Arthritis"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2023-04-05T06:49:26.159+0000")
+}
+{
+    "_id" : ObjectId("64553b991200ad9ac33ca6d4"),
+    "user_id" : ObjectId("64553b7525ce3aed0d105e74"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-05-05T17:23:37.516+0000"),
+    "mental" : [
+        "OCD",
+        "ADHD"
+    ],
+    "physical" : [
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Hallucinogens"
+    ],
+    "updatedAt" : ISODate("2023-05-05T17:23:37.516+0000")
+}
+{
+    "_id" : ObjectId("6479b0ce1d10040e0c63af3c"),
+    "user_id" : ObjectId("6479af49ac3084ddd0784bf6"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-02T09:05:18.960+0000"),
+    "mental" : [
+        "ADHD"
+    ],
+    "physical" : [
+        "Weight Issues",
+        "Heart Condition",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Hallucinogens",
+        "Marijuana Synthetics"
+    ],
+    "updatedAt" : ISODate("2023-06-02T09:05:18.960+0000")
+}
+{
+    "_id" : ObjectId("6481e54e1d10040e0c628c76"),
+    "user_id" : ObjectId("6481e51fcc6e5e8f90617afd"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-08T14:27:26.114+0000"),
+    "mental" : [
+        "OCD",
+        "ADHD",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Disabled",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Heroin",
+        "Opioids"
+    ],
+    "updatedAt" : ISODate("2023-06-08T14:27:26.114+0000")
+}
+{
+    "_id" : ObjectId("6481f04a1d10040e0c63e382"),
+    "user_id" : ObjectId("6481efd2cc6e5e8f90617b06"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-08T15:14:18.267+0000"),
+    "mental" : [
+        "Depression"
+    ],
+    "physical" : [
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Hallucinogens"
+    ],
+    "updatedAt" : ISODate("2023-06-08T15:14:18.267+0000")
+}
+{
+    "_id" : ObjectId("648952681d10040e0c427c40"),
+    "user_id" : ObjectId("648951f41f6d92213b0ed90a"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-14T05:38:48.351+0000"),
+    "mental" : [
+        "Depression",
+        "ADHD"
+    ],
+    "physical" : [
+        "Disabled",
+        "Nerve Damage"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Marijuana Synthetics"
+    ],
+    "updatedAt" : ISODate("2023-06-14T05:38:48.351+0000")
+}
+{
+    "_id" : ObjectId("6489526a1d10040e0c427c9c"),
+    "user_id" : ObjectId("648951dc1f6d92213b0ed909"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-14T05:38:50.204+0000"),
+    "mental" : [
+        "OCD",
+        "Anxiety"
+    ],
+    "physical" : [
+        "COVID-19",
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2023-06-14T05:38:50.204+0000")
+}
+{
+    "_id" : ObjectId("648b907959f5caefb06fd8c2"),
+    "user_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-15T22:28:09.959+0000"),
+    "physical" : [
+        "COVID-19",
+        "Weight Issues",
+        "Heart Condition"
+    ],
+    "updatedAt" : ISODate("2023-06-23T17:40:50.724+0000"),
+    "substance_abuse" : [
+        "Opioids",
+        "Hallucinogens",
+        "Heroin",
+        "Marijuana Synthetics",
+        "Cocaine"
+    ],
+    "mental" : [
+        "Anxiety",
+        "ADHD"
+    ]
+}
+{
+    "_id" : ObjectId("648b9aa459f5caefb0710acf"),
+    "user_id" : ObjectId("648b9a14e2afd63bd9ec672b"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-15T23:11:32.963+0000"),
+    "mental" : [
+        "Depression",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2023-06-15T23:11:32.963+0000")
+}
+{
+    "_id" : ObjectId("6493524d59f5caefb05b96b7"),
+    "user_id" : ObjectId("64930814f74dab2b6486e3e3"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-21T19:41:01.995+0000"),
+    "mental" : [
+        "ADHD",
+        "Depression",
+        "Anxiety",
+        "Serious Mental Illness",
+        "OCD",
+        "Bi-Polar"
+    ],
+    "updatedAt" : ISODate("2023-06-21T19:41:01.995+0000")
+}
+{
+    "_id" : ObjectId("64998fa159f5caefb01984a7"),
+    "user_id" : ObjectId("64998efc95c07d44a914bd0b"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-26T13:16:17.125+0000"),
+    "mental" : [
+        "ADHD",
+        "OCD"
+    ],
+    "physical" : [
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Hallucinogens"
+    ],
+    "updatedAt" : ISODate("2023-06-26T13:16:17.125+0000")
+}
+{
+    "_id" : ObjectId("649a748859f5caefb034f6d8"),
+    "user_id" : ObjectId("649a704d95c07d44a914bd12"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-27T05:32:56.319+0000"),
+    "mental" : [
+        "OCD",
+        "ADHD",
+        "Bi-Polar",
+        "Serious Mental Illness",
+        "Depression",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Disabled",
+        "Arthritis"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Opioids"
+    ],
+    "updatedAt" : ISODate("2023-06-27T05:44:59.359+0000")
+}
+{
+    "_id" : ObjectId("649a7fa659f5caefb0366a6a"),
+    "user_id" : ObjectId("649a7f5995c07d44a914bd51"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-27T06:20:22.055+0000"),
+    "mental" : [
+        "Depression",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Heart Condition",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Heroin",
+        "Hallucinogens"
+    ],
+    "updatedAt" : ISODate("2023-06-27T06:24:17.466+0000")
+}
+{
+    "_id" : ObjectId("649a8e6359f5caefb0383221"),
+    "user_id" : ObjectId("649a88b495c07d44a914bd6b"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-27T07:23:15.893+0000"),
+    "mental" : [
+        "ADHD",
+        "OCD",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Weight Issues",
+        "Heart Condition",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2023-06-27T07:23:15.893+0000")
+}
+{
+    "_id" : ObjectId("649ab38b59f5caefb03c9f6e"),
+    "user_id" : ObjectId("649ab2b995c07d44a914bdfb"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-27T10:01:47.916+0000"),
+    "mental" : [
+        "OCD"
+    ],
+    "physical" : [
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2023-06-27T10:08:59.735+0000")
+}
+{
+    "_id" : ObjectId("649ae93e59f5caefb043faab"),
+    "user_id" : ObjectId("649ae8e87df317ccc536dfb5"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-27T13:50:54.512+0000"),
+    "mental" : [
+        "Anxiety",
+        "ADHD"
+    ],
+    "physical" : [
+        "Heart Condition",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2023-06-27T13:50:54.512+0000")
+}
+{
+    "_id" : ObjectId("649c3f919767f01067d668e9"),
+    "user_id" : ObjectId("649c3f4c7c589fe4642ec4b5"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-06-28T14:11:29.443+0000"),
+    "mental" : [
+        "OCD",
+        "Bi-Polar"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Disabled",
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Opioids",
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2023-06-28T14:11:29.443+0000")
+}
+{
+    "_id" : ObjectId("64cdfb7e4e791b59c4ec6033"),
+    "user_id" : ObjectId("64cdfb1b3a1163fdc99d7dfa"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-05T07:34:22.215+0000"),
+    "mental" : [
+        "Depression",
+        "OCD"
+    ],
+    "physical" : [
+        "Arthritis",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Hallucinogens",
+        "Cocaine",
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2023-08-05T07:34:22.215+0000")
+}
+{
+    "_id" : ObjectId("64d4bc5797f32997f4c9f721"),
+    "user_id" : ObjectId("64d4bc31f949da35bc83d8d7"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-10T10:30:47.297+0000"),
+    "mental" : [
+        "OCD",
+        "Serious Mental Illness"
+    ],
+    "physical" : [
+        "Weight Issues",
+        "Arthritis"
+    ],
+    "substance_abuse" : [
+        "Marijuana Synthetics",
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2023-08-10T10:30:47.297+0000")
+}
+{
+    "_id" : ObjectId("64d4c0c097f32997f4cecd2d"),
+    "user_id" : ObjectId("64d4c09df949da35bc83d8de"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-10T10:49:36.780+0000"),
+    "mental" : [
+        "OCD",
+        "Serious Mental Illness"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Weight Issues",
+        "Heart Condition",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Heroin",
+        "Cocaine",
+        "Opioids"
+    ],
+    "updatedAt" : ISODate("2023-08-10T10:49:36.780+0000")
+}
+{
+    "_id" : ObjectId("64d62b2d97f32997f473a957"),
+    "user_id" : ObjectId("6495744d95c07d44a914b8e1"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-11T12:35:57.832+0000"),
+    "mental" : [
+        "Depression",
+        "Serious Mental Illness",
+        "OCD",
+        "ADHD",
+        "Anxiety",
+        "Bi-Polar"
+    ],
+    "updatedAt" : ISODate("2023-08-11T12:36:37.690+0000"),
+    "physical" : [
+        "Nerve Damage",
+        "COVID-19",
+        "Arthritis",
+        "Heart Condition",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Marijuana Synthetics",
+        "Hallucinogens",
+        "Cocaine",
+        "Heroin",
+        "Marijuana"
+    ]
+}
+{
+    "_id" : ObjectId("64dda7a297f32997f451cb6a"),
+    "user_id" : ObjectId("64dda77ed6deda24b4ff5346"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-17T04:52:50.043+0000"),
+    "mental" : [
+        "Depression",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Marijuana Synthetics",
+        "Cocaine"
+    ],
+    "updatedAt" : ISODate("2023-08-17T04:52:50.043+0000")
+}
+{
+    "_id" : ObjectId("64df50f397f32997f43ec801"),
+    "user_id" : ObjectId("64df50a690e78fd20b11d832"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-18T11:07:31.627+0000"),
+    "mental" : [
+        "Depression",
+        "OCD",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Weight Issues",
+        "Arthritis",
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2023-08-18T11:07:31.627+0000")
+}
+{
+    "_id" : ObjectId("64df51b497f32997f43f9b7e"),
+    "user_id" : ObjectId("64df518290e78fd20b11d83e"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-18T11:10:44.728+0000"),
+    "mental" : [
+        "Anxiety",
+        "Bi-Polar"
+    ],
+    "physical" : [
+        "Heart Condition",
+        "Disabled"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2023-08-18T11:10:44.728+0000")
+}
+{
+    "_id" : ObjectId("64e738131a4ce3680a2b14ba"),
+    "user_id" : ObjectId("64e7370752592ecf228324e6"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-24T10:59:31.608+0000"),
+    "mental" : [
+        "Depression",
+        "OCD"
+    ],
+    "updatedAt" : ISODate("2023-08-24T10:59:37.247+0000"),
+    "physical" : [
+        "Arthritis",
+        "COVID-19"
+    ],
+    "substance_abuse" : [
+        "Opioids",
+        "Heroin"
+    ]
+}
+{
+    "_id" : ObjectId("64ed98d1217b379ed44b7622"),
+    "user_id" : ObjectId("64ed9893392526d75c6338f9"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-29T07:05:53.572+0000"),
+    "mental" : [
+        "Depression",
+        "OCD"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Weight Issues",
+        "Nerve Damage",
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Heroin",
+        "Opioids"
+    ],
+    "updatedAt" : ISODate("2023-08-29T07:05:53.572+0000")
+}
+{
+    "_id" : ObjectId("64edaeb9217b379ed46bbb44"),
+    "user_id" : ObjectId("64edae84392526d75c63398c"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-29T08:39:21.740+0000"),
+    "mental" : [
+        "Depression",
+        "Anxiety"
+    ],
+    "physical" : [
+        "Weight Issues",
+        "Heart Condition",
+        "Nerve Damage"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Opioids",
+        "Heroin"
+    ],
+    "updatedAt" : ISODate("2023-08-29T08:39:21.740+0000")
+}
+{
+    "_id" : ObjectId("64edbdce217b379ed47e4167"),
+    "user_id" : ObjectId("64edbd9b392526d75c63398d"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-29T09:43:42.861+0000"),
+    "mental" : [
+        "Depression",
+        "Bi-Polar"
+    ],
+    "physical" : [
+        "Weight Issues",
+        "Heart Condition"
+    ],
+    "substance_abuse" : [
+        "Marijuana",
+        "Hallucinogens"
+    ],
+    "updatedAt" : ISODate("2023-08-29T09:43:42.861+0000")
+}
+{
+    "_id" : ObjectId("64ede62e217b379ed4baf1db"),
+    "user_id" : ObjectId("64ede4d4392526d75c6339b3"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-29T12:35:58.530+0000"),
+    "mental" : [
+        "Depression",
+        "OCD"
+    ],
+    "physical" : [
+        "Weight Issues",
+        "Nerve Damage"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Opioids"
+    ],
+    "updatedAt" : ISODate("2023-08-29T12:35:58.530+0000")
+}
+{
+    "_id" : ObjectId("64ede950217b379ed4bee942"),
+    "user_id" : ObjectId("64ede919392526d75c6339b4"),
+    "__v" : NumberInt(0),
+    "createdAt" : ISODate("2023-08-29T12:49:20.906+0000"),
+    "mental" : [
+        "OCD",
+        "Depression"
+    ],
+    "physical" : [
+        "Arthritis",
+        "Weight Issues"
+    ],
+    "substance_abuse" : [
+        "Cocaine",
+        "Marijuana"
+    ],
+    "updatedAt" : ISODate("2023-08-29T12:49:20.906+0000")
+}

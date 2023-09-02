@@ -1,0 +1,81 @@
+{
+    "_id" : ObjectId("62f2529dedea244214391fa2"),
+    "question" : "What are the rules of etiquette?",
+    "answer" : "Be welcoming\n\nBe respectful.\n\nListen to each other.\n\nBe mindful of differences.",
+    "status" : NumberInt(0),
+    "createdAt" : ISODate("2022-08-09T12:27:09.500+0000"),
+    "updatedAt" : ISODate("2022-08-19T11:09:37.238+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62ff6fbd2b0ae7aef3599ffc"),
+    "question" : "How can I tell if a chatroom is public or private?",
+    "answer" : "Private chatrooms have the padlock symbol. Public chatrooms do not.",
+    "status" : NumberInt(0),
+    "createdAt" : ISODate("2022-08-19T11:10:53.246+0000"),
+    "updatedAt" : ISODate("2022-08-19T11:10:53.246+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("62ff7190385b8859bfe87716"),
+    "question" : "How do I join a chatroom?",
+    "answer" : "If it is a public chat, you can click the “Join” button on the chatroom in the Home Screen.\n\nIf it is a private chatroom, after you click the “Join” button on the chatroom in the Home Screen, it will send a notification to the host that you wish to join. You will receive a notification when the host accepts or rejects. If you’re accepted, you can now join the chatroom. If you’re rejected, you request to join 2 more times.",
+    "status" : NumberInt(0),
+    "createdAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "updatedAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("638d7acee160cb946a3e5039"),
+    "question" : "How do I invite a user to a chatroom?",
+    "answer" : "You can only invite a user to a chatroom if you are the host. After creating a chatroom, you will see the “Invite” button under the chatroom name. You can click it and search for the users you wish to invite. ",
+    "status" : NumberInt(0),
+    "createdAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "updatedAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("638d7ad7e160cb946a3e503a"),
+    "question" : "How can I see if a user is online?",
+    "answer" : "In the chatroom, you can click on the number of attendees and it will display the users in the chatroom. The users with the green dot are currently online.",
+    "status" : NumberInt(0),
+    "createdAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "updatedAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("638d7afce160cb946a3e503b"),
+    "question" : "How do I report a user?",
+    "answer" : "You can long press the picture of the user you wish to report. The report prompt will show and then you can report that user.",
+    "status" : NumberInt(0),
+    "createdAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "updatedAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("638d7b1de160cb946a3e503c"),
+    "question" : "How do I report a chatroom?",
+    "answer" : "On the Home Screen, you can long press the chatroom you wish to report. The report prompt will show and you can report that chatroom.",
+    "status" : NumberInt(0),
+    "createdAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "updatedAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("638d7b3ae160cb946a3e503d"),
+    "question" : "How do I leave a chatroom?",
+    "answer" : "At the bottom of the the chatroom, you will see a “Leave Room” button. Once you click it, there should be a confirmation pop up that says \"Are you sure you want to permanently leave this room?” If you leave this room, you will no longer receive notifications. If this is a private room, you will need to request to join this room again.",
+    "status" : NumberInt(0),
+    "createdAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "updatedAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("638d7b6ee160cb946a3e503e"),
+    "question" : "How do I delete a chatroom?",
+    "answer" : "If you are the host, at the bottom of a chatroom, you will see a \"Delete room\" button. Once you click it, there will be a confirmation pop up that says \"Are you sure you want to delete this room?” As a host, if you delete this room, you will be deleting this room for everyone.",
+    "status" : NumberInt(0),
+    "createdAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "updatedAt" : ISODate("2022-08-19T11:18:40.233+0000"),
+    "__v" : NumberInt(0)
+}

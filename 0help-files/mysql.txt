@@ -1,11 +1,15 @@
+user:  j5user
+pswrd: 98Lv9zd&8
+host:  161.97.132.85
+
 git config --global --unset core.editor
 
 cd "C:\xampp\mysql\bin"
 
-check mysql version
+// check mysql version
 mysql --version
 
-run mysql
+//run mysql
 mysql -u root -p -h localhost
 
 
@@ -35,6 +39,7 @@ INSERT INTO my_table (event_name, event_datetime) VALUES
 > select curtime();
 > select now();		// date & time both
 
+
 // primary key foriegn key             
 
 CREATE TABLE students (
@@ -58,6 +63,62 @@ select * from customers JOIN orders ON customers.cid = orders.cid;
 select customers.cid, cname, oamount from customers JOIN orders ON customers.cid = orders.cid;
 
 
+
+// ----------- Interview Queries -----------
+
+// ----------Delete duplicates data--------------  
+
+DELETE e1 FROM employee e1, employee e2 WHERE e1.name=e2.name and
+ e1.salary = e2.salary AND e1.id > e2.id;
+
+
+
+//  Query To Find Nth Highest Salary. Find Nth(1st,2nd,3rd..N)
+
+
+select * from test group by salary order by salary DESC limit 1,2;
+ 
+// 1 represent OFFSET, it skip 1 and give another 2 values
+
+
+
+// -----query to fetch duplicate records--------
+
+
+SELECT salary,name, COUNT(*) from testing GROUP BY name, salary HAVING COUNT(*) >1;
+
+
+
+// ------query to fetch only odd rows from a table----
+
+select * from testing where id IN (select id FROM testing WHERE id%2 = 1 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //-------------------------Sequelize------------------------
 
 	-----------CRUD-----------
@@ -78,6 +139,7 @@ let data = await User.bulkCreate([]);
   //   let a = await data.destroy();
 
   console.log("---data----", data.toJSON());
+
 
 // To Update data
 
@@ -422,15 +484,78 @@ let creator = async (req, res) => {
 
 
 
+-------------when we got error while syncing------------- 
+
+const forceSync = async () => {
+  await db.sequelize.query('SET FOREIGN_KEY_CHECKS = 0');
+  await db.sequelize.sync({ force: true });
+  await db.sequelize.query('SET FOREIGN_KEY_CHECKS = 1'); // setting the flag back for security
+};
+
+kotak  bank
+18602662666
+
+--------------HOOKS---------------
+
+hooks:{
+beforeValidate:(user,options)=>{
+}}
 
 
 
+------------------Sub Query----------------
+
+// Eg. in this, create a post, and posts reactions we will store in another table name "reactions" 
+
+db.post = sequelize.define('post',{
+    content: DataTypes.STRING
+})
+db.reaction = sequelize.define('reaction',{
+    type: DataTypes.STRING
+})
+db.post.hasMany(db.reaction); 
+db.reaction.belongsTo(db.post);
 
 
+async function makePostWithReactions(content, reactionTypes) {
+  const post = await db.post.create({ content });
+  const reactions= await db.reaction.bulkCreate(
+    reactionTypes.map(type => ({ type, postId: post.id }))
+  );
+  return {post,reactions};
+}
 
 
+const subQueryUsers = async (req, res) => {
+  try {
+    let data= await makePostWithReactions('Hello_World1', [
+      'Like', 'Angry', 'Laugh', 'Like', 'Like', 'Angry', 'Sad', 'Like'
+    ]);
+    await makePostWithReactions('My Second Post', [
+      'Laugh', 'Laugh', 'Like', 'Laugh'
+    ]);
 
 
+  let count= await db.post.findAll({
+    attributes:{
+      include:[
+        [
+          db.sequelize.literal(`(SELECT COUNT(*) FROM reactions AS reaction WHERE
+          reaction.postId = post.id AND reaction.type = "laugh")`),
+          "laughReactionsCount"
+        ]
+      ]
+    },
+      order:[
+        [db.sequelize.literal('laughReactionsCount'),"DESC"]
+      ]
+  })
+    
+  res.status(200).json(count);
+  } catch (err) {
+    throw err;
+  }
+};
 
 
 
