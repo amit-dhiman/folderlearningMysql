@@ -2,6 +2,13 @@ user:  j5user
 pswrd: 98Lv9zd&8
 host:  161.97.132.85
 
+// pinkboda database server
+https://vmi603505.contaboserver.net:8443/phpMyAdmin
+
+# user_name= 'admin_pinkboda'
+# password='7?sYg5c00'
+
+
 git config --global --unset core.editor
 
 cd "C:\xampp\mysql\bin"
