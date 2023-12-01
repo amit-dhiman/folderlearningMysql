@@ -2,6 +2,27 @@ user:  j5user
 pswrd: 98Lv9zd&8
 host:  161.97.132.85
 
+
+// Adolfo
+https://www.figma.com/file/v38H3a4DpMxZxmZR5IMMpS/Adolfo?type=design&node-id=0-1&mode=design&t=YCQJ63ulALSmL5c8-0
+
+// sprint sheet Adolfo
+https://docs.google.com/document/d/1pgg5IcN7X47SS_aNe1LvUZlSPpj-TKf-2hNOi19szAk/edit
+
+// sprint spread sheet Adolfo
+https://docs.google.com/spreadsheets/d/1-0OAZnR8aSVi2-S8I1hh2rnl2c58tM2zjWwdG9vhD_Q/edit#gid=2044464843
+
+
+// happiroom
+http://3.212.13.74:3002/api/
+
+// figmahappiroom
+https://www.figma.com/file/yMWEYJPFciMhxO1I4Sn5BE/happiroom-(Copy)-(Copy)?type=design&node-id=0-1&mode=design&t=UKmEPZkIssLw9Dma-0
+
+// live database
+
+https://vmi603505.contaboserver.net:8443/phpMyAdmin/
+
 // Admin
 
 https://www.figma.com/file/aWhuo4l56pufPYMJokcbu6/Houzmart?type=design&mode=design&t=xybSZohKCnXQK8FD-0
@@ -10,4 +31,15 @@ https://www.figma.com/file/aWhuo4l56pufPYMJokcbu6/Houzmart?type=design&mode=desi
 // User   &	Drivers
 
 https://www.figma.com/file/SJZ2tUbg9WQhKOnHcIko2u/PinkBoda-(Copy)-(Copy)?type=design&node-id=0-1&mode=design&t=KOHiXWRtxUdIzPEP-0
+
+
+// hours sheet
+
+https://docs.google.com/spreadsheets/d/1PYImKZmTrtVDw1p3nTGlpE2ij0xKWRgRGsw68-Hi7Is/edit#gid=0
+
+
+// Sprint spread sheet pinkboda
+
+https://docs.google.com/spreadsheets/d/1y-nP5KXfBH7Ex9uXoFiqesFuV9wgOQaEQZZpwk5iXtM/edit?pli=1#gid=1035700830
+
 

@@ -1,0 +1,10 @@
+{
+    "_id" : ObjectId("6093ac586f3deb25083c39ab"),
+    "searchDistance" : NumberInt(600),
+    "smtpEmail" : "admin@admin.com",
+    "smtpPassword" : "13126321",
+    "createdAt" : ISODate("2021-05-06T08:44:08.417+0000"),
+    "updatedAt" : ISODate("2021-05-07T12:39:37.227+0000"),
+    "__v" : NumberInt(0),
+    "adminCommison" : NumberInt(700)
+}

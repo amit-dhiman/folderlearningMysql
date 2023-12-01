@@ -1,0 +1,9 @@
+{
+    "_id" : ObjectId("6090da63dca57f88a0b89c5b"),
+    "email" : "admin@admin.com",
+    "password" : "123456",
+    "name" : "SafeZone Admin",
+    "phone" : 9569602213.0,
+    "updatedAt" : ISODate("2021-05-07T12:40:49.890+0000"),
+    "image" : "image-1620380572770.jpg"
+}

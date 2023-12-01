@@ -10,6 +10,25 @@ https://vmi603505.contaboserver.net:8443/phpMyAdmin
 
 
 git config --global --unset core.editor
+async function cancelRideAfterAccept(data, io) {
+  let responceUser;
+  if(data.type=="Driver"){
+    responceUser = await db.users.findOne({ where: { id: data.userId } });
+  }else {
+     responceUser = await db.drivers.findOne({ where: { id: data.userId } });
+  }
+  
+  // console.log("===========================End ride user ",responceUser);
+  let models = db.bookings;
+  let response = await models.update({ booking_status: 'cancel',cancelled_by:data.type}, {
+    where: { id: data.bookingId }
+  });
+  console.log('----------cancelRideAfterAccept res------------',response);
+
+  await db.myrides.update({ride_status:"Cancelled"},{where:{ booking_id: data.bookingId }});     // updation myRides 
+  io.to(responceUser.socket_id).emit('ride_cancel_after_accept', data);
+}
+-------------------------------------
 
 cd "C:\xampp\mysql\bin"
 

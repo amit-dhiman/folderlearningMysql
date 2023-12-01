@@ -1,9 +1,9 @@
 {\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fprq8\fcharset0 Liberation Serif;}{\f1\fnil\fcharset0 Calibri;}}
-{\colortbl ;\red49\green49\blue49;\red0\green0\blue0;\red255\green0\blue0;}
+{\colortbl ;\red0\green0\blue255;\red49\green49\blue49;\red0\green0\blue0;\red255\green0\blue0;}
 {\*\generator Riched20 10.0.19041}\viewkind4\uc1 
-\pard\b\f0\fs24\lang9 To start xamp\b0\line\fs22 sudo /opt/lampp/lampp start\par
+\pard {\b\f0\fs24\lang9{\field{\*\fldinst{HYPERLINK https://medium.com/digitalaholic/simple-nodejs-pagination-a2d787b77581 }}{\fldrslt{https://medium.com/digitalaholic/simple-nodejs-pagination-a2d787b77581\ul0\cf0}}}}\b\f0\fs24\line\line\line To start xamp\b0\line\fs22 sudo /opt/lampp/lampp start\par
 sudo /opt/lampp/./manager-linux-x64.run\line\par
-\b\fs28 check status\b0\fs24\line\cf1\fs21 sudo systemctl status mysql\par
+\b\fs28 check status\b0\fs24\line\cf2\fs21 sudo systemctl status mysql\par
 \cf0\f1\fs22\par
 \f0\fs24\line\b To Stop server\b0\line\fs22 sudo systemctl stop mysql\fs24\par
 
@@ -145,7 +145,7 @@ Model.findAll(\{\par
       \}\par
     \});\par
 \par
-\cf2\b\fs24 // --------------in db queries, both or keys will works-----------------\par
+\cf3\b\fs24 // --------------in db queries, both or keys will works-----------------\par
 \cf0\b0\fs22   const opdats= await User.findAll(\{\par
     where: \{ [Op.or]: [ \{ id: 8 \}, \{ id: 7 \} ] \}\par
   \});\par
@@ -161,8 +161,8 @@ Model.findAll(\{\par
 where: \{ \par
    rank:\{\par
       [Op.or]: [\par
-        \{title: \{ [Op.\cf3 like\cf0 ]: 'Boat%'\} \},\par
-        \{description: \{[Op.\cf3 like\cf0 ]: '%boat%' \} \}\par
+        \{title: \{ [Op.\cf4 like\cf0 ]: 'Boat%'\} \},\par
+        \{description: \{[Op.\cf4 like\cf0 ]: '%boat%' \} \}\par
       ]\par
     \}\par
 \}\par
@@ -178,26 +178,26 @@ await User.destroy(\{\par
 \par
 \par
 \par
-await User.\cf3 max\cf0 ('age'); // 40\par
-await User.\cf3 max\cf0 ('age', \{ where: \{ age: \{ [\cf2 Op\cf3 .lt\cf0 ]: 20 \} \} \}); // 10\par
+await User.\cf4 max\cf0 ('age'); // 40\par
+await User.\cf4 max\cf0 ('age', \{ where: \{ age: \{ [\cf3 Op\cf4 .lt\cf0 ]: 20 \} \} \}); // 10\par
 await User.min('age'); // 5\par
-await User.min('age', \{ where: \{ age: \{ [Op.\cf3 gt\cf0 ]: 5 \} \} \}); // 10\par
+await User.min('age', \{ where: \{ age: \{ [Op.\cf4 gt\cf0 ]: 5 \} \} \}); // 10\par
 await User.sum('age'); // 55\par
-await User.sum('age', \{ where: \{ age: \{ [Op.\cf3 gt\cf0 ]: 5 \} \} \}); // 50\par
+await User.sum('age', \{ where: \{ age: \{ [Op.\cf4 gt\cf0 ]: 5 \} \} \}); // 50\par
 await User.count()\par
 \par
 \par
 \par
-\cf2\fs24 // Skip 5 instances and fetch the 5 after that\par
+\cf3\fs24 // Skip 5 instances and fetch the 5 after that\par
 \cf0\fs22 // offset == skip\par
 \par
-Project.\cf3 findAll\cf0 (\{ \cf3 offset\cf0 : 5, \cf3 limit\cf0 : 5 \});\par
+Project.\cf4 findAll\cf0 (\{ \cf4 offset\cf0 : 5, \cf4 limit\cf0 : 5 \});\par
 \par
-await User.\cf3\b increment\cf0\b0 (\{age: 5\}, \{ where: \{ id: 1 \} \})\par
-await User.\cf3\b increment\cf0\b0 (\{age: -5\}, \{ where: \{ id: 1 \} \})\par
+await User.\cf4\b increment\cf0\b0 (\{age: 5\}, \{ where: \{ id: 1 \} \})\par
+await User.\cf4\b increment\cf0\b0 (\{age: -5\}, \{ where: \{ id: 1 \} \})\par
 \par
 \par
-\cf2\b\fs24\par
+\cf3\b\fs24\par
 // It will find data, if data doesnt exists, then it will create.\par
 \cf0\b0\fs22\par
 let [user, created] = await User.findOrCreate(\{\par
@@ -208,8 +208,8 @@ let [user, created] = await User.findOrCreate(\{\par
 \});\par
 \par
 \par
-\cf3\b\fs24 // LIKE\cf0\b0\fs22\par
-\cf3\b // IN\cf0\b0\par
+\cf4\b\fs24 // LIKE\cf0\b0\fs22\par
+\cf4\b // IN\cf0\b0\par
 await sequelize.query(\par
   'SELECT * FROM projects WHERE status IN(:status)',\par
   \{\par
@@ -253,13 +253,13 @@ let oneToOne = async (req, res) => \{\par
 \par
 \par
 \b\fs24 // One To One AND One To Many are same we have to change in index.js \b0\fs22\par
-db.user.\cf3 belongsToMany\cf0 (db.contact,\{through:"user_contacts"\});\par
+db.user.\cf4 belongsToMany\cf0 (db.contact,\{through:"user_contacts"\});\par
 \par
 \par
 \b\fs24 // Many To Many\b0\fs22\par
 \par
-db.user.\cf3 belongsToMany\cf0 (db.contact,\{through:"user_contacts"\});    //  it will automatically create userId key, if we want manually we have to pass this,foreignKey:"user_id"\par
-db.contact.\cf3 belongsToMany\cf0 (db.user,\{through:"user_contacts"\});    //  ,foreignKey:"contact_id"\par
+db.user.\cf4 belongsToMany\cf0 (db.contact,\{through:"user_contacts"\});    //  it will automatically create userId key, if we want manually we have to pass this,foreignKey:"user_id"\par
+db.contact.\cf4 belongsToMany\cf0 (db.user,\{through:"user_contacts"\});    //  ,foreignKey:"contact_id"\par
 \par
 \par
 // important to read all lines in this\par
@@ -325,7 +325,7 @@ let lazyloadingUser = async (req, res) => \{\par
 \par
 //  For this we have to do some changes in Our Models\par
 \par
-\cf2\b\fs24 // ----------- Nested Loading --------- \cf3\par
+\cf3\b\fs24 // ----------- Nested Loading --------- \cf4\par
 \cf0\b0\fs22\par
 let eagerLoading = async (req, res) => \{\par
   try \{\par

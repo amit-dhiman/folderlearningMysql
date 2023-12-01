@@ -1,0 +1,20 @@
+mongodb.com : username= mailto:harrisd2028@gmail.com Password=FFPproject@101
+
+Amazon AWS mailto:username=info@safezoneonline.com password=FFPproject@101
+
+
+Apple developer mailto:username=happiroom1@gmail.com
+
+password=FFPproject@101
+
+
+-------pinkboda----------
+
+https://docs.google.com/spreadsheets/d/1PYImKZmTrtVDw1p3nTGlpE2ij0xKWRgRGsw68-Hi7Is/edit?pli=1#gid=0
+
+------------add auth--------------
+
+ngrok config add-authtoken 2V4FRJOMx5U93AdLGKlBJrFeSE7_KPeruSfxC48epdNBp3ez|
+
+this is the last time token wi be shown
+2V4G1lz4oN0RLsuoON6YCncHn7T_4hcGMjTrxG3FwYZi72Wcz

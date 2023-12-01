@@ -1,0 +1,162 @@
+{
+    "_id" : ObjectId("60ab5e501f0bd10e180ceb4f"),
+    "title" : "Depression",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "createdAt" : ISODate("2021-05-24T08:05:36.820+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:34:17.521+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75af55b650691930b19b9"),
+    "title" : "Anxiety",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "createdAt" : ISODate("2021-06-14T13:34:45.177+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:34:45.177+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75b0b5b650691930b19ba"),
+    "title" : "OCD",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "createdAt" : ISODate("2021-06-14T13:35:07.024+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:35:07.024+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75b235b650691930b19bb"),
+    "title" : "ADHD",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "createdAt" : ISODate("2021-06-14T13:35:31.727+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:35:31.727+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75b395b650691930b19bc"),
+    "title" : "Bi-Polar",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "createdAt" : ISODate("2021-06-14T13:35:53.301+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:35:53.301+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75b595b650691930b19bd"),
+    "title" : "Serious Mental Illness",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "createdAt" : ISODate("2021-06-14T13:36:25.121+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:36:25.121+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75ba35b650691930b19be"),
+    "title" : "Marijuana",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a632cada175e24b0972f65"),
+    "createdAt" : ISODate("2021-06-14T13:37:39.272+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:38:38.830+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75bc75b650691930b19bf"),
+    "title" : "Marijuana Synthetics",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a632cada175e24b0972f65"),
+    "createdAt" : ISODate("2021-06-14T13:38:15.949+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:38:15.949+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75bfe5b650691930b19c0"),
+    "title" : "Cocaine",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a632cada175e24b0972f65"),
+    "createdAt" : ISODate("2021-06-14T13:39:10.764+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:39:10.764+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75c175b650691930b19c1"),
+    "title" : "Heroin",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a632cada175e24b0972f65"),
+    "createdAt" : ISODate("2021-06-14T13:39:35.831+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:39:35.831+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75c305b650691930b19c2"),
+    "title" : "Opioids",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a632cada175e24b0972f65"),
+    "createdAt" : ISODate("2021-06-14T13:40:00.093+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:40:00.093+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75c4d5b650691930b19c3"),
+    "title" : "Hallucinogens",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a632cada175e24b0972f65"),
+    "createdAt" : ISODate("2021-06-14T13:40:29.208+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:40:29.208+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75c8d5b650691930b19c4"),
+    "title" : "Arthritis",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a63294da175e24b0972f64"),
+    "createdAt" : ISODate("2021-06-14T13:41:33.203+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:41:33.203+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75caa5b650691930b19c5"),
+    "title" : "Heart Condition",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a63294da175e24b0972f64"),
+    "createdAt" : ISODate("2021-06-14T13:42:02.318+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:42:02.318+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75cc25b650691930b19c6"),
+    "title" : "Weight Issues",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a63294da175e24b0972f64"),
+    "createdAt" : ISODate("2021-06-14T13:42:26.427+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:42:26.427+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75cdc5b650691930b19c7"),
+    "title" : "COVID-19",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a63294da175e24b0972f64"),
+    "createdAt" : ISODate("2021-06-14T13:42:52.877+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:42:52.877+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75cf65b650691930b19c8"),
+    "title" : "Nerve Damage",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a63294da175e24b0972f64"),
+    "createdAt" : ISODate("2021-06-14T13:43:18.824+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:43:18.824+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60c75d0e5b650691930b19c9"),
+    "title" : "Disabled",
+    "status" : "0",
+    "issue_categorey" : ObjectId("60a63294da175e24b0972f64"),
+    "createdAt" : ISODate("2021-06-14T13:43:42.866+0000"),
+    "updatedAt" : ISODate("2021-06-14T13:43:42.866+0000"),
+    "__v" : NumberInt(0)
+}

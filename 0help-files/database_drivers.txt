@@ -1,0 +1,57 @@
+INSERT INTO drivers (
+    id,
+    username,
+    gender,
+    latitude,
+    longitude,
+    mobile_number,
+    country_code,
+    profile_image,
+    license,
+    id_card,
+    passport_photo,
+    vechile_insurance,
+    model,
+    license_plate,
+    year,
+    is_admin_verified,
+    access_token,
+    device_type,
+    device_token,
+    created_at,
+    updated_at,
+    deleted_at
+) VALUES
+    (1, 'amit', 'male', 30.713209, 76.70697, '6934567890', '+91', NULL, NULL, NULL, NULL, NULL, '123', 'HP2001', 2001, 'accepted', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibW9iaWxlX251bWJlciI6IjY5MzQ1Njc4OTAiLCJpYXQiOjE2OTM5MDcxNDN9.zt-waQJg6fJcNebZ3HgNd50UxZtjc_8DwGZwgebMk5I', NULL, NULL, '2023-09-05 09:45:43', '2023-09-05 09:45:55', NULL),
+    (2, 'user', 'male', 30.699335, 76.715561, '7034567890', '+91', NULL, NULL, NULL, NULL, NULL, '123', 'HP2001', 2001, 'accepted', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwibW9iaWxlX251bWJlciI6IjcwMzQ5Mjc4OTAiLCJpYXQiOjE2OTQwOTgxODJ9.jJ5U-DdI9wd5p3T8NfCQT8m6YZ4mN6vL8sjH2cZ7-oY', NULL, NULL, '2023-09-05 09:46:18', '2023-09-05 09:47:03', NULL),
+    (3, 'user', 'male', 30.704796, 76.710579, '7134567890', '+91', NULL, NULL, NULL, NULL, NULL, '123', 'HP2001', 2001, 'accepted', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibW9iaWxlX251bWJlciI6IjcxMzQ5Mjc4OTAiLCJpYXQiOjE2OTQwOTg3Mzd9.b_N9T8dpXNB7LkoZ37s5Ht_7c6NNz9NtKgP1rsRUxO4', NULL, NULL, '2023-09-05 09:47:17', '2023-09-05 09:47:53', NULL),
+    (4, 'user', 'male', 30.717785, 76.701996, '7334567890', '+91', NULL, NULL, NULL, NULL, NULL, '123', 'HP2001', 2001, 'accepted', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwibW9iaWxlX251bWJlciI6IjczMzQ5Mjc4OTAiLCJpYXQiOjE2OTQwOTg4MzF9.ABzYVtY3P1Blh81zCEWsTIsb7mMRpjY-hPHQK0ILb4M', NULL, NULL, '2023-09-05 09:48:11', '2023-09-05 09:48:54', NULL),
+    (5, 'user', 'male', 30.723982, 76.711952, '5834567890', '+91', NULL, NULL, NULL, NULL, NULL, '123', 'HP2001', 2001, 'accepted', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwibW9iaWxlX251bWJlciI6IjU4MzQ5Mjc4OTAiLCJpYXQiOjE2OTQwOTg4NzR9.BX3veI6LpB2MNSySoUfDVWUVbZN_KiM82p5Xwh-GG4M', NULL, NULL, '2023-09-05 09:49:14', '2023-09-05 09:49:41', NULL),
+    (6, 'user', 'male', 30.742573, 76.800873, '0834567890', '+91', NULL, NULL, NULL, NULL, NULL, '123', 'HP2001', 2001, 'accepted', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwibW9iaWxlX251bWJlciI6IjA4MzQ5Mjc4OTAiLCJpYXQiOjE2OTQwOTg5NDF9.ghjbhns_aBn2F49TWMaXIt0aNR0sWqBr3TqF02zkWyY', NULL, NULL, '2023-09-05 09:50:10', '2023-09-05 09:51:06', NULL),
+    (7, 'user', 'male', 30.749359, 76.795212, '0934567890', '+91', NULL, NULL, NULL, NULL, NULL, '123', 'HP2001', 2001, 'accepted', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywibW9iaWxlX251bWJlciI6IjA5MzQ5Mjc4OTAiLCJpYXQiOjE2OTQwOTkwMDB9.G9AGFQ3Kk8exiPGN8DN_zIm6JwE0PcvXKTZklq8u-dM', NULL, NULL, '2023-09-05 09:51:20', '2023-09-05 09:51:53', NULL);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

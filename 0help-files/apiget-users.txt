@@ -1,0 +1,116 @@
+Router.get('/api/get-users', api_aut, token_aut, sps_aut, async (req, res) => {
+  try {
+    const group_id = req.query.group_id;
+
+    // Create the aggregation pipeline
+    const pipeline = [];
+
+    // Match users based on conditions
+    const matchStage = {
+      $match: {
+        fname: { $ne: '' },
+      },
+    };
+
+    // Add a condition to exclude users who are members of the specified group
+    if (group_id) {
+      const group = await Group.findOne({ _id: group_id });
+      if (group && group.members.length > 0) {
+        const memberIds = group.members.map((member) => member.member_id);
+        matchStage.$match._id = { $nin: memberIds };
+      }
+    }
+
+    pipeline.push(matchStage);
+
+    // If group_id is provided, calculate is_invited and is_rejected_count
+    if (group_id) {
+      pipeline.push({
+        $lookup: {
+          from: 'grouprejectionusers', // Replace with the actual name of the collection
+          let: { user_id: '$_id' },
+          pipeline: [
+            {
+              $match: {
+                $expr: {
+                  $and: [
+                    { $eq: ['$admin_id', '$$user_id'] },
+                    { $eq: ['$group_id', group_id] },
+                  ],
+                },
+              },
+            },
+          ],
+          as: 'rejectionData',
+        },
+      });
+
+      pipeline.push({
+        $lookup: {
+          from: 'invites', // Replace with the actual name of the collection
+          let: { reciver_id: '$_id' },
+          pipeline: [
+            {
+              $match: {
+                $expr: {
+                  $and: [
+                    { $eq: ['$reciver_id', '$$reciver_id'] },
+                    { $eq: ['$group_id', group_id] },
+                  ],
+                },
+              },
+            },
+          ],
+          as: 'inviteData',
+        },
+      });
+
+      // Remove rejectionData and inviteData fields
+      pipeline.push({
+        $project: {
+          rejectionData: 0,
+          inviteData: 0,
+        },
+      });
+    }
+
+    // Add fields to the results
+    pipeline.push({
+      $addFields: {
+        is_invited: 0,
+        is_rejected_count: 0,
+      },
+    });
+
+    // Sort the results by fname
+    pipeline.push({
+      $sort: { fname: 1 },
+    });
+
+    // Execute the aggregation pipeline
+    const result = await User.aggregate(pipeline);
+
+    if (result.length > 0) {
+      res.status(200).json({
+        success: 1,
+        code: 200,
+        message: 'Here is a list of all users',
+        body: result,
+      });
+    } else {
+      res.status(404).json({
+        success: 0,
+        code: 404,
+        message: 'There are no users',
+        body: {},
+      });
+    }
+  } catch (err) {
+    res.status(500).json({
+      success: 0,
+      code: 500,
+      message: 'Sorry, there is a temporary server problem',
+      body: err,
+    });
+  }
+});

@@ -1,0 +1,48 @@
+{
+    "_id" : ObjectId("60a63dcbda175e24b0972f67"),
+    "title" : "11th",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-18T12:34:18.263+0000"),
+    "updatedAt" : ISODate("2021-05-20T08:14:20.338+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60a63dd6da175e24b0972f6a"),
+    "title" : "Senior",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-18T12:34:18.263+0000"),
+    "updatedAt" : ISODate("2021-05-20T08:14:20.338+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60a63dc7da175e24b0972f66"),
+    "title" : "10th",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-18T12:34:18.263+0000"),
+    "updatedAt" : ISODate("2021-05-20T08:14:20.338+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60a63dceda175e24b0972f68"),
+    "title" : "12th",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-18T12:34:18.263+0000"),
+    "updatedAt" : ISODate("2021-05-20T08:14:20.338+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60a63dd2da175e24b0972f69"),
+    "title" : "Junior",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-18T12:34:18.263+0000"),
+    "updatedAt" : ISODate("2021-05-20T08:14:20.338+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("60a7bf5b52466c24a474725b"),
+    "title" : "9th",
+    "status" : "0",
+    "createdAt" : ISODate("2021-05-21T14:10:35.487+0000"),
+    "updatedAt" : ISODate("2021-05-21T14:10:35.487+0000"),
+    "__v" : NumberInt(0)
+}

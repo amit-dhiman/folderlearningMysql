@@ -1,0 +1,3029 @@
+{
+    "_id" : ObjectId("63e9e99c1a51b49b7050e202"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("63e9e8661a51b49b7050e201"),
+    "title" : "ABC",
+    "join_requests" : [
+        {
+            "_id" : ObjectId("64d36fb8e40f1e85b35eaa4b"),
+            "sender_id" : ObjectId("64d360b8b8fa802dfc668c29")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("63e9e99c1a51b49b7050e203"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        },
+        {
+            "_id" : ObjectId("63e9e99c1a51b49b7050e903"),
+            "member_id" : ObjectId("6479af49ac3084ddd0784bf6")
+        },
+        {
+            "_id" : ObjectId("63e9e99c1a51b49b7050e904"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-02-13T07:41:16.561+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.611+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63ea27d01a51b49b7050e207"),
+    "title" : "Tests",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "admin_id" : ObjectId("63ea26d51a51b49b7050e206"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("63ea27d01a51b49b7050e208"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        },
+        {
+            "_id" : ObjectId("63ea27d01a51b49b7050e608"),
+            "member_id" : ObjectId("64d343e2d11fc63a281dd436")
+        }
+    ],
+    "createdAt" : ISODate("2023-02-13T12:06:40.700+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.612+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63ea29db1a51b49b7050e216"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "admin_id" : ObjectId("63ea26d51a51b49b7050e206"),
+    "visibility" : "private",
+    "title" : "test 2",
+    "join_requests" : [
+        {
+            "_id" : ObjectId("641734eeb3bb0a1a5742da8e"),
+            "sender_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("63ea29db1a51b49b7050e217"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        },
+        {
+            "_id" : ObjectId("63ea2a091a51b49b7050e21f"),
+            "member_id" : ObjectId("63ea27f51a51b49b7050e20a")
+        }
+    ],
+    "createdAt" : ISODate("2023-02-13T12:15:23.536+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.612+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63ea3cb61a51b49b7050e225"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "2L stress",
+    "visibility" : "private",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("63ea3cb61a51b49b7050e226"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-02-13T13:35:50.033+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.612+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63ee5d77bb9057146c1ce9d7"),
+    "title" : "test notif",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("63ee5cadbb9057146c1ce9d6"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("63ee5d77bb9057146c1ce9d8"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("63ee5f32bb9057146c1ce9e4"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        }
+    ],
+    "createdAt" : ISODate("2023-02-16T16:44:39.041+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.612+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63f43c77bb9057146c1ce9e7"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "title" : "Startup",
+    "visibility" : "public",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("63f43c77bb9057146c1ce9e8"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("640ba016028cc1c7dab89394"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("6482b7322c24eaa5b09a121a"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        }
+    ],
+    "createdAt" : ISODate("2023-02-21T03:37:27.526+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.612+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63f43c8dbb9057146c1ce9eb"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "title" : "weight gain",
+    "visibility" : "public",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("63f43c8dbb9057146c1ce9ec"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("641733acb3bb0a1a5742da55"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        },
+        {
+            "_id" : ObjectId("64173419b3bb0a1a5742da88"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("642e9ed0a9605858a0f15b24"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("6481d5dfcc6e5e8f90617ae1"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        }
+    ],
+    "createdAt" : ISODate("2023-02-21T03:37:49.074+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.612+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("63f43c99bb9057146c1ce9ef"),
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "visibility" : "public",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "title" : "food ",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("63f43c99bb9057146c1ce9f0"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-02-21T03:38:01.974+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.612+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("640ba4d1028cc1c7dab8939c"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "title" : "headache ",
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("640ba4d1028cc1c7dab8939d"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-10T21:44:49.149+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.612+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("640ba5ed028cc1c7dab893ab"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "title" : "Food",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("640ba5ed028cc1c7dab893ac"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("64125080028cc1c7dab893e9"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-10T21:49:33.651+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.612+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("640c0595028cc1c7dab893c1"),
+    "visibility" : "public",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "title" : "Freshman Stress",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("640c0595028cc1c7dab893c2"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("640f618a028cc1c7dab893c8"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("64195673b3bb0a1a5742dad4"),
+            "member_id" : ObjectId("6419563bb3bb0a1a5742dad1")
+        },
+        {
+            "_id" : ObjectId("64195804b3bb0a1a5742dad9"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-11T04:37:41.126+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.612+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6411f2b2028cc1c7dab893ca"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "admin_id" : ObjectId("63ee5cadbb9057146c1ce9d6"),
+    "title" : "ROOM NAME",
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6411f2b2028cc1c7dab893cb"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("641c2ac1fca0fc91b946ab1a"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        },
+        {
+            "_id" : ObjectId("641c2ac6fca0fc91b946ab1e"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-15T16:30:42.685+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64173505b3bb0a1a5742da90"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("64173349b3bb0a1a5742da3e"),
+    "title" : "mental 1 ",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64173505b3bb0a1a5742da91"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        },
+        {
+            "_id" : ObjectId("64173520b3bb0a1a5742da99"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("6417362eb3bb0a1a5742daad"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-19T16:15:01.960+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64173571b3bb0a1a5742da9d"),
+    "admin_id" : ObjectId("64173349b3bb0a1a5742da3e"),
+    "title" : "mental 2",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64173571b3bb0a1a5742da9e"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        },
+        {
+            "_id" : ObjectId("6417363cb3bb0a1a5742dabc"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-19T16:16:49.043+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("641977f4b3bb0a1a5742dade"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "invite test",
+    "visibility" : "private",
+    "admin_id" : ObjectId("6419563bb3bb0a1a5742dad1"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("641977f4b3bb0a1a5742dadf"),
+            "member_id" : ObjectId("6419563bb3bb0a1a5742dad1")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-21T09:25:08.061+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("641bf419fca0fc91b946ab10"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "title" : "Happiroom",
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("641bf419fca0fc91b946ab11"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("641c90f0fca0fc91b946ab20"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-23T06:39:21.144+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("641dbb80fca0fc91b946ab3c"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("63ee5cadbb9057146c1ce9d6"),
+    "title" : "TESTING",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("641dbb80fca0fc91b946ab3d"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-24T15:02:24.944+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("641f87c6fca0fc91b946ab42"),
+    "title" : "April fool ",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "admin_id" : ObjectId("640b9fb7028cc1c7dab89392"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("641f87c6fca0fc91b946ab43"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-25T23:46:14.495+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("641f8a63fca0fc91b946ab5a"),
+    "visibility" : "public",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "Freshman stress",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("641f8a63fca0fc91b946ab5b"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("647a34a6453f34e1930ba452"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-25T23:57:23.481+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6421bb80fca0fc91b946ab79"),
+    "title" : "problem",
+    "admin_id" : ObjectId("63ee5cadbb9057146c1ce9d6"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6421bb80fca0fc91b946ab7a"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("60a63294da175e24b0973f64"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-27T15:51:28.378+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6421bd08fca0fc91b946ab90"),
+    "admin_id" : ObjectId("63ee5cadbb9057146c1ce9d6"),
+    "title" : "test",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6421bd08fca0fc91b946ab91"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-27T15:58:00.260+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6421bd15fca0fc91b946ab93"),
+    "admin_id" : ObjectId("63ee5cadbb9057146c1ce9d6"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "title" : "testing1",
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6421bd15fca0fc91b946ab94"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-27T15:58:13.906+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6422b206fca0fc91b946abe4"),
+    "title" : "new invite test",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "admin_id" : ObjectId("63e9e8661a51b49b7050e201"),
+    "visibility" : "private",
+    "join_requests" : [
+        {
+            "_id" : ObjectId("6434f5fdc3d744f4a76e22ce"),
+            "sender_id" : ObjectId("642d19c13d9b558af7320d48")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6422b206fca0fc91b946abe5"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-03-28T09:23:18.415+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("642c534c3d9b558af7320d36"),
+    "title" : "pop",
+    "visibility" : "public",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("642c534c3d9b558af7320d37"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("642c73853d9b558af7320d46"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("642d1a283d9b558af7320d53"),
+            "member_id" : ObjectId("642d19c13d9b558af7320d48")
+        },
+        {
+            "_id" : ObjectId("649576e195c07d44a914b8ea"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-04T16:41:48.739+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("642c53573d9b558af7320d3a"),
+    "visibility" : "public",
+    "title" : "stress",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("642c53573d9b558af7320d3b"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("642d1a1a3d9b558af7320d4a"),
+            "member_id" : ObjectId("642d19c13d9b558af7320d48")
+        },
+        {
+            "_id" : ObjectId("6436d303587e68f5695cedfe"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-04T16:41:59.026+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6435448a587e68f5695ceddd"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "mental",
+    "visibility" : "private",
+    "admin_id" : ObjectId("642d19c13d9b558af7320d48"),
+    "join_requests" : [
+        {
+            "_id" : ObjectId("64357a6c587e68f5695cedee"),
+            "sender_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6435448a587e68f5695cedde"),
+            "member_id" : ObjectId("642d19c13d9b558af7320d48")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-11T11:29:14.521+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("643579a8587e68f5695cede5"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "delete notif test",
+    "admin_id" : ObjectId("63ee5cadbb9057146c1ce9d6"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("643579a8587e68f5695cede6"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64357a3e587e68f5695cedeb"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-11T15:15:52.861+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6436d338587e68f5695cee0a"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("640b9fb7028cc1c7dab89392"),
+    "title" : "Tuesday",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6436d338587e68f5695cee0b"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("6437feba587e68f5695ceedc"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64494ade3c72337bf6aa09b8"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        },
+        {
+            "_id" : ObjectId("64494c2f3c72337bf6aa09d6"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-12T15:50:16.432+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6436d377587e68f5695cee11"),
+    "title" : "pop up",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6436d377587e68f5695cee12"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-12T15:51:19.652+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6436d4e8587e68f5695cee18"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "title" : "Pizza",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6436d4e8587e68f5695cee19"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-12T15:57:28.558+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6436d80f587e68f5695cee93"),
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "title" : "weight",
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6436d80f587e68f5695cee94"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-12T16:10:55.749+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6436dadb587e68f5695ceeb0"),
+    "visibility" : "public",
+    "title" : "h",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6436dadb587e68f5695ceeb1"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("644c091125ce3aed0d105d51"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-12T16:22:51.347+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6436dae5587e68f5695ceeb4"),
+    "title" : "l",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "visibility" : "public",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6436dae5587e68f5695ceeb5"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("6446256d3a7d2f7aba2fe2b0"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-12T16:23:01.517+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6436daee587e68f5695ceeb8"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "visibility" : "public",
+    "title" : "p",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6436daee587e68f5695ceeb9"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("6436db69587e68f5695ceebe"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("64494d753c72337bf6aa0a1b"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-12T16:23:10.342+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.613+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6447c0e43c72337bf6aa099d"),
+    "title" : "test with alden",
+    "admin_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "public",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6447c0e43c72337bf6aa099e"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        },
+        {
+            "_id" : ObjectId("6447c0f03c72337bf6aa09a2"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64494cc33c72337bf6aa0a03"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        },
+        {
+            "_id" : ObjectId("64494e223c72337bf6aa0a57"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("64551c5225ce3aed0d105da4"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-25T12:00:36.404+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64494b0c3c72337bf6aa09bf"),
+    "visibility" : "private",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "title" : "test 4/26",
+    "admin_id" : ObjectId("64173349b3bb0a1a5742da3e"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64494b0c3c72337bf6aa09c0"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        },
+        {
+            "_id" : ObjectId("64494c383c72337bf6aa09d9"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-26T16:02:20.381+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64494c683c72337bf6aa09dc"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "admin_id" : ObjectId("64173349b3bb0a1a5742da3e"),
+    "visibility" : "private",
+    "title" : "again 4/27",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64494c683c72337bf6aa09dd"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-26T16:08:08.837+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64494c843c72337bf6aa09e6"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "love",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64494c843c72337bf6aa09e7"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("644aaaa025ce3aed0d105d1d"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("645537ae25ce3aed0d105da9"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-26T16:08:36.868+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64494d973c72337bf6aa0a2a"),
+    "title" : "testing invite",
+    "admin_id" : ObjectId("63ee5cadbb9057146c1ce9d6"),
+    "visibility" : "private",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64494d973c72337bf6aa0a2b"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("644aaa6225ce3aed0d105d15"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("644c082825ce3aed0d105d44"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("645537aa25ce3aed0d105da6"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-26T16:13:11.212+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("644a1ff23c72337bf6aa0a79"),
+    "admin_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "title" : "aaaaa",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("644a1ff23c72337bf6aa0a7a"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        },
+        {
+            "_id" : ObjectId("644a2c4b25ce3aed0d105cfb"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-27T07:10:42.780+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("644c097025ce3aed0d105d61"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "title" : "croissant ",
+    "admin_id" : ObjectId("640b9fb7028cc1c7dab89392"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("644c097025ce3aed0d105d62"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("647a3415453f34e1930ba442"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-04-28T17:59:12.359+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("645537d525ce3aed0d105dad"),
+    "admin_id" : ObjectId("64173349b3bb0a1a5742da3e"),
+    "title" : "notifications testing",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("645537d525ce3aed0d105dae"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        },
+        {
+            "_id" : ObjectId("645537e725ce3aed0d105db3"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "createdAt" : ISODate("2023-05-05T17:07:33.276+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6455380e25ce3aed0d105db7"),
+    "admin_id" : ObjectId("64173349b3bb0a1a5742da3e"),
+    "visibility" : "private",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "title" : "notifications testing 2",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6455380e25ce3aed0d105db8"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        },
+        {
+            "_id" : ObjectId("6455383f25ce3aed0d105dbd"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "createdAt" : ISODate("2023-05-05T17:08:30.144+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6455385525ce3aed0d105dc0"),
+    "admin_id" : ObjectId("64173349b3bb0a1a5742da3e"),
+    "title" : "note 3",
+    "visibility" : "private",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6455385525ce3aed0d105dc1"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        }
+    ],
+    "createdAt" : ISODate("2023-05-05T17:09:41.565+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6455393b25ce3aed0d105df8"),
+    "visibility" : "private",
+    "title" : "note 4",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "admin_id" : ObjectId("64173349b3bb0a1a5742da3e"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6455393b25ce3aed0d105df9"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        },
+        {
+            "_id" : ObjectId("6455399625ce3aed0d105e26"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("645539b125ce3aed0d105e2f"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "createdAt" : ISODate("2023-05-05T17:13:31.855+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6455397b25ce3aed0d105e07"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "public note",
+    "admin_id" : ObjectId("64173349b3bb0a1a5742da3e"),
+    "visibility" : "public",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6455397b25ce3aed0d105e08"),
+            "member_id" : ObjectId("64173349b3bb0a1a5742da3e")
+        },
+        {
+            "_id" : ObjectId("6455399625ce3aed0d105e28"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("64553a7425ce3aed0d105e50"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("64553b9b25ce3aed0d105e78"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        },
+        {
+            "_id" : ObjectId("647a3399453f34e1930ba428"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("64816ddbe948a189e56c2f72"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        }
+    ],
+    "createdAt" : ISODate("2023-05-05T17:14:35.544+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("645953ab25ce3aed0d105ea4"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "title" : "love 2",
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("645953ab25ce3aed0d105ea5"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("647a32ec453f34e1930ba418"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        }
+    ],
+    "createdAt" : ISODate("2023-05-08T19:55:23.928+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6479744425ce3aed0d105ea8"),
+    "title" : "TestGroup",
+    "admin_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6479744425ce3aed0d105ea9"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        },
+        {
+            "_id" : ObjectId("6479b107ac3084ddd0784bfb"),
+            "member_id" : ObjectId("6479af49ac3084ddd0784bf6")
+        },
+        {
+            "_id" : ObjectId("64818aacf30bd88a96327e65"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-02T04:47:00.121+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64797dd21bd3d3996e8a6bd9"),
+    "admin_id" : ObjectId("63e9e8661a51b49b7050e201"),
+    "title" : "RejG",
+    "visibility" : "private",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64797dd21bd3d3996e8a6bda"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("6479b619ac3084ddd0784c04"),
+            "member_id" : ObjectId("6479af49ac3084ddd0784bf6")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-02T05:27:46.945+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6480b974453f34e1930ba4c3"),
+    "admin_id" : ObjectId("64553b7525ce3aed0d105e74"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "title" : "notifications 1",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6480b974453f34e1930ba4c4"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        },
+        {
+            "_id" : ObjectId("6480b9d1453f34e1930ba4e7"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-07T17:08:04.301+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6481681d453f34e1930ba4ea"),
+    "admin_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "title" : "final test group pvt",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6481681d453f34e1930ba4eb"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        },
+        {
+            "_id" : ObjectId("648168d4bfb45088b895e9ba"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        },
+        {
+            "_id" : ObjectId("64816bafe948a189e56c2f5d"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-08T05:33:17.864+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6481a263f30bd88a96327e6a"),
+    "title" : "FnF",
+    "admin_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6481a263f30bd88a96327e6b"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-08T09:41:55.339+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6481c0a2cc6e5e8f90617a6d"),
+    "admin_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "visibility" : "private",
+    "title" : " just test",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6481c0a2cc6e5e8f90617a6e"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        },
+        {
+            "_id" : ObjectId("6481c0d9cc6e5e8f90617a73"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-08T11:50:58.081+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6481d319cc6e5e8f90617a81"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "title" : "HELLO",
+    "admin_id" : ObjectId("64553b7525ce3aed0d105e74"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6481d319cc6e5e8f90617a82"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        },
+        {
+            "_id" : ObjectId("6481d393cc6e5e8f90617ab2"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("6481d5f7cc6e5e8f90617aed"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("6481f108cc6e5e8f90617b29"),
+            "member_id" : ObjectId("6481efd2cc6e5e8f90617b06")
+        },
+        {
+            "_id" : ObjectId("6482af0c3d0c4ba49324b264"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-08T13:09:45.791+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6481d424cc6e5e8f90617abf"),
+    "title" : "Jogging",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6481d424cc6e5e8f90617ac0"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("6481d47bcc6e5e8f90617acf"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        },
+        {
+            "_id" : ObjectId("6481d66ccc6e5e8f90617af6"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("6481f0afcc6e5e8f90617b1a"),
+            "member_id" : ObjectId("6481efd2cc6e5e8f90617b06")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-08T13:14:12.725+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6481e59ecc6e5e8f90617afe"),
+    "title" : "Meeting Group",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("6481e51fcc6e5e8f90617afd"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6481e59ecc6e5e8f90617aff"),
+            "member_id" : ObjectId("6481e51fcc6e5e8f90617afd")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-08T14:28:46.804+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6481f063cc6e5e8f90617b07"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "title" : "MEETING - 6/8",
+    "admin_id" : ObjectId("6481efd2cc6e5e8f90617b06"),
+    "join_requests" : [
+        {
+            "_id" : ObjectId("6481f291cc6e5e8f90617b31"),
+            "sender_id" : ObjectId("63ea26d51a51b49b7050e206")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6481f063cc6e5e8f90617b08"),
+            "member_id" : ObjectId("6481efd2cc6e5e8f90617b06")
+        },
+        {
+            "_id" : ObjectId("6481f09acc6e5e8f90617b13"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("6481f0aacc6e5e8f90617b18"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-08T15:14:43.474+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6481f661dbfac8959cb89c22"),
+    "admin_id" : ObjectId("6481efd2cc6e5e8f90617b06"),
+    "title" : "DAVON TEST",
+    "visibility" : "private",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6481f661dbfac8959cb89c23"),
+            "member_id" : ObjectId("6481efd2cc6e5e8f90617b06")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-08T15:40:17.647+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6482b0490b1542a4cb65d84c"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "admin_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "visibility" : "private",
+    "title" : "test 6/9",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6482b0490b1542a4cb65d84d"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        },
+        {
+            "_id" : ObjectId("6482b502153e8ea4fc359cfd"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-09T04:53:29.979+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6482b063153e8ea4fc359cdf"),
+    "admin_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "title" : "test 22",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "join_requests" : [
+        {
+            "_id" : ObjectId("6499838395c07d44a914bcfb"),
+            "sender_id" : ObjectId("6495744d95c07d44a914b8e1")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6482b063153e8ea4fc359ce0"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        },
+        {
+            "_id" : ObjectId("6482b20f153e8ea4fc359ce7"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-09T04:53:55.784+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6482b8a62c24eaa5b09a1222"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "title" : "test by picture ",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "join_requests" : [
+        {
+            "_id" : ObjectId("6499837c95c07d44a914bcf9"),
+            "sender_id" : ObjectId("6495744d95c07d44a914b8e1")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6482b8a62c24eaa5b09a1223"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        },
+        {
+            "_id" : ObjectId("6482d41c8cce33a7c9f397bc"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-09T05:29:10.352+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6482bc9803945ba6698dca9c"),
+    "visibility" : "private",
+    "title" : "test by shf",
+    "admin_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6482cd2d8cce33a7c9f3979a"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        },
+        {
+            "_id" : ObjectId("6482fb467110bbadcf5cf0b0"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-09T05:46:00.853+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6482d0808cce33a7c9f3979c"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "Notification",
+    "visibility" : "private",
+    "admin_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6482d0808cce33a7c9f3979d"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        },
+        {
+            "_id" : ObjectId("649ab2ef95c07d44a914be00"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-09T07:10:56.777+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648325cfe17d91b0e5145941"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "admin_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61"),
+    "title" : "RF",
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("648325cfe17d91b0e5145942"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        },
+        {
+            "_id" : ObjectId("648325e4e17d91b0e5145947"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-09T13:14:55.488+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6486f3d79a9cac00df88f724"),
+    "visibility" : "private",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "admin_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "title" : "fffff",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6486f3d79a9cac00df88f725"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-12T10:30:47.766+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6486fa9173ac2f022221ee23"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("63ea26d51a51b49b7050e206"),
+    "title" : "ok",
+    "join_requests" : [
+        {
+            "_id" : ObjectId("64d0ccbb00b5dd53b2fa5a73"),
+            "sender_id" : ObjectId("64cdfb1b3a1163fdc99d7dfa")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6486faa973ac2f022221ee2b"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-12T10:59:29.923+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6486fb0e73ac2f022221ee30"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "check Pri",
+    "admin_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6486fb0e73ac2f022221ee31"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        },
+        {
+            "_id" : ObjectId("6486fb3273ac2f022221ee36"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-12T11:01:34.090+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6486ff9573ac2f022221eeba"),
+    "admin_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "sD",
+    "visibility" : "public",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6486ff9573ac2f022221eebb"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        },
+        {
+            "_id" : ObjectId("6486ffa273ac2f022221eec0"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        },
+        {
+            "_id" : ObjectId("649a9e9a95c07d44a914bd8c"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-12T11:20:53.360+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6487004173ac2f022221eef4"),
+    "admin_id" : ObjectId("63ee5dabbb9057146c1ce9da"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "public",
+    "title" : "llllllll",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6487004173ac2f022221eef5"),
+            "member_id" : ObjectId("63ee5dabbb9057146c1ce9da")
+        },
+        {
+            "_id" : ObjectId("648704411e23c3046c76efa6"),
+            "member_id" : ObjectId("63ea26d51a51b49b7050e206")
+        },
+        {
+            "_id" : ObjectId("64886b0f1f6d92213b0ed716"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("6488b9e21f6d92213b0ed753"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-12T11:23:45.649+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6488ba0e1f6d92213b0ed769"),
+    "title" : "physical ",
+    "admin_id" : ObjectId("64553b7525ce3aed0d105e74"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6488ba0e1f6d92213b0ed76a"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        },
+        {
+            "_id" : ObjectId("6488bb761f6d92213b0ed7df"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("648959881f6d92213b0ee00b"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-13T18:48:46.434+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6488ba461f6d92213b0ed786"),
+    "visibility" : "public",
+    "title" : "addiction open",
+    "admin_id" : ObjectId("64553b7525ce3aed0d105e74"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6488ba461f6d92213b0ed787"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        },
+        {
+            "_id" : ObjectId("6488bb721f6d92213b0ed7d7"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("648959961f6d92213b0ee02f"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-13T18:49:42.057+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6488ba7f1f6d92213b0ed7a9"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("64553b7525ce3aed0d105e74"),
+    "title" : "new mental ",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6488ba7f1f6d92213b0ed7aa"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        },
+        {
+            "_id" : ObjectId("6488ba9f1f6d92213b0ed7c5"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("648959901f6d92213b0ee014"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-13T18:50:39.778+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6488badd1f6d92213b0ed7cf"),
+    "title" : "new mental2",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("64553b7525ce3aed0d105e74"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6488badd1f6d92213b0ed7d0"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        },
+        {
+            "_id" : ObjectId("6488bc301f6d92213b0ed8ed"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-13T18:52:13.163+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6488bbce1f6d92213b0ed8ca"),
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "visibility" : "private",
+    "title" : "Success",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6488bbce1f6d92213b0ed8cb"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("6488bbf61f6d92213b0ed8e1"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-13T18:56:14.326+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6488bc581f6d92213b0ed8ef"),
+    "visibility" : "private",
+    "title" : "reject",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "admin_id" : ObjectId("64553b7525ce3aed0d105e74"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6488bc581f6d92213b0ed8f0"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-13T18:58:32.688+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648952a91f6d92213b0ed90b"),
+    "visibility" : "private",
+    "title" : "c9",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "admin_id" : ObjectId("648951dc1f6d92213b0ed909"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("648952a91f6d92213b0ed90c"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("6489533e1f6d92213b0ed983"),
+            "member_id" : ObjectId("648951f41f6d92213b0ed90a")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-14T05:39:53.632+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64895dfb1f6d92213b0ee8d1"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "public",
+    "admin_id" : ObjectId("648951dc1f6d92213b0ed909"),
+    "title" : "bnv",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64895dfb1f6d92213b0ee8d2"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64895e8d1f6d92213b0ee8ec"),
+            "member_id" : ObjectId("648951f41f6d92213b0ed90a")
+        },
+        {
+            "_id" : ObjectId("64895f961f6d92213b0eeb0d"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        },
+        {
+            "_id" : ObjectId("64895fa01f6d92213b0eeb3c"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("648b93b6e2afd63bd9ec66bc"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-14T06:28:11.444+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64895e2b1f6d92213b0ee8e1"),
+    "title" : "test - pri",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "admin_id" : ObjectId("648951dc1f6d92213b0ed909"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64895e2b1f6d92213b0ee8e2"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64895e781f6d92213b0ee8e7"),
+            "member_id" : ObjectId("648951f41f6d92213b0ed90a")
+        },
+        {
+            "_id" : ObjectId("6489619a1f6d92213b0ef08c"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-14T06:28:59.138+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6489674f1f6d92213b0ef4e8"),
+    "title" : "gggh",
+    "admin_id" : ObjectId("63e9e8661a51b49b7050e201"),
+    "visibility" : "private",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6489674f1f6d92213b0ef4e9"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("648967611f6d92213b0ef4f2"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-14T07:07:59.900+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648b9b8be2afd63bd9ec672c"),
+    "title" : "open ",
+    "admin_id" : ObjectId("648b9a14e2afd63bd9ec672b"),
+    "visibility" : "public",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("648b9b8be2afd63bd9ec672d"),
+            "member_id" : ObjectId("648b9a14e2afd63bd9ec672b")
+        },
+        {
+            "_id" : ObjectId("648b9f70e2afd63bd9ec6768"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        },
+        {
+            "_id" : ObjectId("648ba197e2afd63bd9ec6883"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-15T23:15:23.384+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648b9f7fe2afd63bd9ec6769"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+    "title" : "mental priv",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("648b9f7fe2afd63bd9ec676a"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-15T23:32:15.652+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648ba1e1e2afd63bd9ec6888"),
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "title" : "Coffee 1",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "visibility" : "private",
+    "join_requests" : [
+        {
+            "_id" : ObjectId("648ba1fde2afd63bd9ec68a9"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("648ba1e1e2afd63bd9ec6889"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-15T23:42:25.364+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648ba1e5e2afd63bd9ec688b"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "public",
+    "title" : "open physical",
+    "admin_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("648ba1e5e2afd63bd9ec688c"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        },
+        {
+            "_id" : ObjectId("648ba651e2afd63bd9ec68d8"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64919b8db69c0613cd7d39a8"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("6495773295c07d44a914b8fb"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-15T23:42:29.152+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648ba1ebe2afd63bd9ec688f"),
+    "title" : "Coffee 2",
+    "visibility" : "private",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("648ba1ebe2afd63bd9ec6890"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("648ba2e9e2afd63bd9ec68cc"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-15T23:42:35.701+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648ba20ee2afd63bd9ec68ab"),
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "title" : "Coffee",
+    "visibility" : "public",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("648ba20ee2afd63bd9ec68ac"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("648ba221e2afd63bd9ec68b0"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        },
+        {
+            "_id" : ObjectId("649a7bfd95c07d44a914bd4f"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-15T23:43:10.628+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648ba247e2afd63bd9ec68b7"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+    "title" : "ppp",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("648ba247e2afd63bd9ec68b8"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-15T23:44:07.478+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("648ba67ce2afd63bd9ec68de"),
+    "admin_id" : ObjectId("648b9cf5e2afd63bd9ec675f"),
+    "title" : "hello",
+    "visibility" : "private",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+        {
+            "_id" : ObjectId("648ba97de2afd63bd9ec6903"),
+            "sender_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("648ba67ce2afd63bd9ec68df"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-16T00:02:04.649+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6492a8702c05182a6e378056"),
+    "title" : "rejectCheck",
+    "admin_id" : ObjectId("63e9e8661a51b49b7050e201"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6492a8702c05182a6e378057"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-21T07:36:16.093+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6492ab36f74dab2b6486e3d6"),
+    "title" : "anotherOne",
+    "visibility" : "private",
+    "admin_id" : ObjectId("63e9e8661a51b49b7050e201"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6492ab36f74dab2b6486e3d7"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-21T07:48:06.620+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649352f4f74dab2b6486e3e4"),
+    "title" : "stressed",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("649352f4f74dab2b6486e3e5"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-21T19:43:48.482+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6493533cf74dab2b6486e3ec"),
+    "visibility" : "public",
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "title" : "chocolate",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6493533cf74dab2b6486e3ed"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("64935434f74dab2b6486e407"),
+            "member_id" : ObjectId("64930814f74dab2b6486e3e3")
+        },
+        {
+            "_id" : ObjectId("6493c073f74dab2b6486e78c"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        },
+        {
+            "_id" : ObjectId("649575fd95c07d44a914b8e5"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        },
+        {
+            "_id" : ObjectId("6495dfef95c07d44a914bb2e"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        },
+        {
+            "_id" : ObjectId("6495e01195c07d44a914bb51"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("649a979c95c07d44a914bd77"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-21T19:45:00.170+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6495783795c07d44a914b928"),
+    "title" : "trot test",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "admin_id" : ObjectId("6495744d95c07d44a914b8e1"),
+    "visibility" : "public",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6495783795c07d44a914b929"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        },
+        {
+            "_id" : ObjectId("6495d96e95c07d44a914b932"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        },
+        {
+            "_id" : ObjectId("6495dd3695c07d44a914bafe"),
+            "member_id" : ObjectId("64930814f74dab2b6486e3e3")
+        },
+        {
+            "_id" : ObjectId("6496573295c07d44a914bce8"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-23T10:47:19.585+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6495da1c95c07d44a914b962"),
+    "title" : "testing222",
+    "visibility" : "private",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "admin_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+    "join_requests" : [
+        {
+            "_id" : ObjectId("649a7aac95c07d44a914bd46"),
+            "sender_id" : ObjectId("649a704d95c07d44a914bd12")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6495da1c95c07d44a914b963"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-23T17:45:00.102+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6495da6395c07d44a914baa7"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "admin_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+    "visibility" : "private",
+    "title" : "mental private",
+    "join_requests" : [
+        {
+            "_id" : ObjectId("64998f0c95c07d44a914bd0e"),
+            "sender_id" : ObjectId("64998efc95c07d44a914bd0b")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6495da6395c07d44a914baa8"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        },
+        {
+            "_id" : ObjectId("6495dd4895c07d44a914bb06"),
+            "member_id" : ObjectId("64930814f74dab2b6486e3e3")
+        },
+        {
+            "_id" : ObjectId("649988b795c07d44a914bcfd"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-23T17:46:11.071+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6495da9895c07d44a914bac5"),
+    "admin_id" : ObjectId("648b8fc6e2afd63bd9ec6691"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "title" : "physical private",
+    "join_requests" : [
+        {
+            "_id" : ObjectId("649a7fcc95c07d44a914bd52"),
+            "sender_id" : ObjectId("649a7f5995c07d44a914bd51")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6495da9895c07d44a914bac6"),
+            "member_id" : ObjectId("648b8fc6e2afd63bd9ec6691")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-23T17:47:04.816+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6495db2495c07d44a914baca"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "title" : "Korea Room",
+    "visibility" : "private",
+    "admin_id" : ObjectId("64930814f74dab2b6486e3e3"),
+    "join_requests" : [
+        {
+            "_id" : ObjectId("649a759195c07d44a914bd2f"),
+            "sender_id" : ObjectId("649a704d95c07d44a914bd12")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6495db2495c07d44a914bacb"),
+            "member_id" : ObjectId("64930814f74dab2b6486e3e3")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-23T17:49:24.911+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6495de3e95c07d44a914bb10"),
+    "visibility" : "private",
+    "title" : "pppppppp",
+    "admin_id" : ObjectId("64553b7525ce3aed0d105e74"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "join_requests" : [
+        {
+            "_id" : ObjectId("64998f0495c07d44a914bd0c"),
+            "sender_id" : ObjectId("64998efc95c07d44a914bd0b")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6495de3e95c07d44a914bb11"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-23T18:02:38.578+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("6496576895c07d44a914bcea"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "admin_id" : ObjectId("63ea33721a51b49b7050e224"),
+    "visibility" : "public",
+    "title" : "weight ",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("6496576895c07d44a914bceb"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("6499891b95c07d44a914bd09"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        },
+        {
+            "_id" : ObjectId("649a759595c07d44a914bd33"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-24T02:39:36.467+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649a760495c07d44a914bd40"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "public",
+    "title" : "Vikas",
+    "admin_id" : ObjectId("649a704d95c07d44a914bd12"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("649a760495c07d44a914bd41"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("649a7fd095c07d44a914bd55"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-27T05:39:16.256+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649a803295c07d44a914bd59"),
+    "visibility" : "public",
+    "admin_id" : ObjectId("649a7f5995c07d44a914bd51"),
+    "title" : "testuser",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("649a803295c07d44a914bd5a"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("649a964195c07d44a914bd6d"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("649ab3ec7df317ccc536d6b8"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        },
+        {
+            "_id" : ObjectId("649ab9797df317ccc536d6dc"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64df124a90e78fd20b11d784"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-27T06:22:42.140+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649aadc395c07d44a914bd91"),
+    "title" : "sickness",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("649a88b495c07d44a914bd6b"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("649aadc395c07d44a914bd92"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("649ab0e495c07d44a914bdf5"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("649ab2e495c07d44a914bdfc"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        },
+        {
+            "_id" : ObjectId("649bc5acf4826de08b0282c4"),
+            "member_id" : ObjectId("648951f41f6d92213b0ed90a")
+        },
+        {
+            "_id" : ObjectId("649c4141631e34ee9960a50c"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("64df4f8a90e78fd20b11d82a"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-27T09:37:07.893+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649aaea295c07d44a914bdee"),
+    "admin_id" : ObjectId("649a88b495c07d44a914bd6b"),
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "visibility" : "private",
+    "title" : "gxgch",
+    "join_requests" : [
+        {
+            "_id" : ObjectId("64d2182200b5dd53b2fa5a7a"),
+            "sender_id" : ObjectId("64cdfb1b3a1163fdc99d7dfa")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("649aaea295c07d44a914bdef"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-27T09:40:50.665+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.614+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649aaebc95c07d44a914bdf1"),
+    "admin_id" : ObjectId("649a88b495c07d44a914bd6b"),
+    "visibility" : "public",
+    "title" : "ffff",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("649aaebc95c07d44a914bdf2"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("649ab0f595c07d44a914bdf9"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("649ab3a195c07d44a914be04"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("649ab3e57df317ccc536d6ac"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        },
+        {
+            "_id" : ObjectId("649ac9f67df317ccc536d6e9"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("649ae5c57df317ccc536d762"),
+            "member_id" : ObjectId("6481efd2cc6e5e8f90617b06")
+        },
+        {
+            "_id" : ObjectId("649ae5ca7df317ccc536d770"),
+            "member_id" : ObjectId("640b9fb7028cc1c7dab89392")
+        },
+        {
+            "_id" : ObjectId("649ae5d17df317ccc536d791"),
+            "member_id" : ObjectId("63ea33721a51b49b7050e224")
+        },
+        {
+            "_id" : ObjectId("649ae95f7df317ccc536dfbf"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("649c3dba7c589fe4642ec0a1"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        },
+        {
+            "_id" : ObjectId("649c3fa47c589fe4642ec5e2"),
+            "member_id" : ObjectId("648b9a14e2afd63bd9ec672b")
+        },
+        {
+            "_id" : ObjectId("649c3fd67c589fe4642ec67b"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64ddb263d6deda24b4ff5370"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-27T09:41:16.725+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649ab4227df317ccc536d6ca"),
+    "title" : "the first ",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "admin_id" : ObjectId("649ab2b995c07d44a914bdfb"),
+    "visibility" : "private",
+    "join_requests" : [
+        {
+            "_id" : ObjectId("649ac9f37df317ccc536d6e3"),
+            "sender_id" : ObjectId("649ac9997df317ccc536d6e2")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("649ab4227df317ccc536d6cb"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-27T10:04:18.721+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649aca5d7df317ccc536d6f2"),
+    "visibility" : "private",
+    "title" : "juju",
+    "admin_id" : ObjectId("649ac9997df317ccc536d6e2"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "join_requests" : [
+        {
+            "_id" : ObjectId("64d0d19f00b5dd53b2fa5a75"),
+            "sender_id" : ObjectId("64cdfb1b3a1163fdc99d7dfa")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("649aca5d7df317ccc536d6f3"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-27T11:39:09.969+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649ae7d87df317ccc536df97"),
+    "visibility" : "private",
+    "title" : "errorTest",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "admin_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61"),
+    "join_requests" : [
+        {
+            "_id" : ObjectId("64d47385f949da35bc83d8c2"),
+            "sender_id" : ObjectId("64d360b8b8fa802dfc668c29")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("649ae7d87df317ccc536df98"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        },
+        {
+            "_id" : ObjectId("649ae7ec7df317ccc536df9d"),
+            "member_id" : ObjectId("6481e51fcc6e5e8f90617afd")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-27T13:44:56.443+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649bbbd40c6209dfee6772bc"),
+    "admin_id" : ObjectId("649ae8e87df317ccc536dfb5"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "something went wrong ",
+    "visibility" : "private",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("649bbbd40c6209dfee6772bd"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("649bbd660c6209dfee6772c2"),
+            "member_id" : ObjectId("648951f41f6d92213b0ed90a")
+        },
+        {
+            "_id" : ObjectId("649bce53dfe36fe21325463f"),
+            "member_id" : ObjectId("63ee15a3c2ba46b5d9bbdc61")
+        },
+        {
+            "_id" : ObjectId("649bd0a4ffa44ee33d82eb76"),
+            "member_id" : ObjectId("6481e51fcc6e5e8f90617afd")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-28T04:49:24.819+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("649c3f367c589fe4642ec4a4"),
+    "admin_id" : ObjectId("64553b7525ce3aed0d105e74"),
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "public",
+    "title" : "xxxx",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("649c3f367c589fe4642ec4a5"),
+            "member_id" : ObjectId("64553b7525ce3aed0d105e74")
+        },
+        {
+            "_id" : ObjectId("649c3fc97c589fe4642ec662"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64ddb258d6deda24b4ff5362"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64df116990e78fd20b11d772"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        }
+    ],
+    "createdAt" : ISODate("2023-06-28T14:09:58.094+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64d474f6f949da35bc83d8c9"),
+    "title" : "it’s huge",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "visibility" : "public",
+    "admin_id" : ObjectId("64d360b8b8fa802dfc668c29"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64d474f6f949da35bc83d8ca"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64d629b0a1d2f779c3d13a99"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        },
+        {
+            "_id" : ObjectId("64ddb24fd6deda24b4ff535e"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-08-10T05:26:14.826+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64d49ff7f949da35bc83d8d5"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "visibility" : "private",
+    "admin_id" : ObjectId("64d49ae8f949da35bc83d8d4"),
+    "title" : "Atal Room ",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64d49ff7f949da35bc83d8d6"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-08-10T08:29:43.706+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64d4bc6df949da35bc83d8d8"),
+    "visibility" : "public",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "TestRoom1",
+    "admin_id" : ObjectId("64d4bc31f949da35bc83d8d7"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64d4bc6df949da35bc83d8d9"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64df114a90e78fd20b11d767"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        },
+        {
+            "_id" : ObjectId("64df21c490e78fd20b11d7da"),
+            "member_id" : ObjectId("64de1fd3d6deda24b4ff53b3")
+        }
+    ],
+    "createdAt" : ISODate("2023-08-10T10:31:09.781+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64d4bc7af949da35bc83d8da"),
+    "visibility" : "public",
+    "admin_id" : ObjectId("64d4bc31f949da35bc83d8d7"),
+    "title" : "TestRoom 2",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64d4bc7af949da35bc83d8db"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64dda846d6deda24b4ff5354"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64df173590e78fd20b11d7cc"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        },
+        {
+            "_id" : ObjectId("64df510b90e78fd20b11d83b"),
+            "member_id" : ObjectId("64df50a690e78fd20b11d832")
+        },
+        {
+            "_id" : ObjectId("64df51d490e78fd20b11d849"),
+            "member_id" : ObjectId("64df518290e78fd20b11d83e")
+        },
+        {
+            "_id" : ObjectId("64df553a90e78fd20b11d860"),
+            "member_id" : ObjectId("64df54d390e78fd20b11d85a")
+        }
+    ],
+    "createdAt" : ISODate("2023-08-10T10:31:22.833+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64d4bc8cf949da35bc83d8dc"),
+    "title" : "TestRoom3",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "admin_id" : ObjectId("64d4bc31f949da35bc83d8d7"),
+    "visibility" : "private",
+    "join_requests" : [
+        {
+            "_id" : ObjectId("64e746907094a350b8c748d4"),
+            "sender_id" : ObjectId("64df50a690e78fd20b11d832")
+        }
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64d4bc8cf949da35bc83d8dd"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-08-10T10:31:40.247+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64d4c0fdf949da35bc83d8df"),
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "admin_id" : ObjectId("64d4c09df949da35bc83d8de"),
+    "visibility" : "public",
+    "title" : "komal",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64d4c0fdf949da35bc83d8e0"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64dda804d6deda24b4ff5348"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64de1da5d6deda24b4ff53a4"),
+            "member_id" : ObjectId("64ddfd02d6deda24b4ff53a1")
+        },
+        {
+            "_id" : ObjectId("64e745957094a350b8c748af"),
+            "member_id" : ObjectId("64df50a690e78fd20b11d832")
+        }
+    ],
+    "createdAt" : ISODate("2023-08-10T10:50:37.670+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64de1e5ad6deda24b4ff53a7"),
+    "title" : "newAddiction",
+    "category_id" : ObjectId("60a632cada175e24b0972f65"),
+    "visibility" : "public",
+    "admin_id" : ObjectId("64de1dc9d6deda24b4ff53a6"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64de1e5ad6deda24b4ff53a8"),
+            "member_id" : ObjectId("64de1dc9d6deda24b4ff53a6")
+        },
+        {
+            "_id" : ObjectId("64df20d190e78fd20b11d7d6"),
+            "member_id" : ObjectId("64de1fd3d6deda24b4ff53b3")
+        },
+        {
+            "_id" : ObjectId("64df504e90e78fd20b11d830"),
+            "member_id" : ObjectId("6495744d95c07d44a914b8e1")
+        },
+        {
+            "_id" : ObjectId("64df50fc90e78fd20b11d836"),
+            "member_id" : ObjectId("64df50a690e78fd20b11d832")
+        },
+        {
+            "_id" : ObjectId("64df51c490e78fd20b11d843"),
+            "member_id" : ObjectId("64df518290e78fd20b11d83e")
+        },
+        {
+            "_id" : ObjectId("64e75b6b3e726e6e58e4faf7"),
+            "member_id" : ObjectId("64e7370752592ecf228324e6")
+        },
+        {
+            "_id" : ObjectId("64eda4ca392526d75c63393a"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64ef8013302dc115720df951"),
+            "member_id" : ObjectId("648b9a14e2afd63bd9ec672b")
+        }
+    ],
+    "createdAt" : ISODate("2023-08-17T13:19:22.889+0000"),
+    "updatedAt" : ISODate("2023-08-30T17:44:51.114+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64df520790e78fd20b11d851"),
+    "title" : "new room",
+    "visibility" : "public",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "admin_id" : ObjectId("64df518290e78fd20b11d83e"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64df520790e78fd20b11d852"),
+            "member_id" : ObjectId("64df518290e78fd20b11d83e")
+        },
+        {
+            "_id" : ObjectId("64df540090e78fd20b11d857"),
+            "member_id" : ObjectId("64de1fd3d6deda24b4ff53b3")
+        },
+        {
+            "_id" : ObjectId("64e746817094a350b8c748d3"),
+            "member_id" : ObjectId("64df50a690e78fd20b11d832")
+        },
+        {
+            "_id" : ObjectId("64e74b4c7094a350b8c74920"),
+            "member_id" : ObjectId("64e7370752592ecf228324e6")
+        },
+        {
+            "_id" : ObjectId("64ed9936392526d75c6338fe"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64eddd82392526d75c633998"),
+            "member_id" : ObjectId("64edbd9b392526d75c63398d")
+        }
+    ],
+    "createdAt" : ISODate("2023-08-18T11:12:07.257+0000"),
+    "updatedAt" : ISODate("2023-08-29T12:00:28.961+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64d473c9f949da35bc83d8c4"),
+    "title" : "It’s Test",
+    "admin_id" : ObjectId("64d360b8b8fa802dfc668c29"),
+    "visibility" : "public",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64d473c9f949da35bc83d8c5"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        }
+    ],
+    "createdAt" : ISODate("2023-08-10T05:21:13.038+0000"),
+    "updatedAt" : ISODate("2023-08-29T11:56:47.615+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64ed9fa6392526d75c633920"),
+    "visibility" : "public",
+    "category_id" : ObjectId("60a3b44a642d1118c4d00e40"),
+    "title" : "hey bro",
+    "admin_id" : ObjectId("64ed9893392526d75c6338f9"),
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64ed9fa6392526d75c633921"),
+            "member_id" : ObjectId("63e9e8661a51b49b7050e201")
+        },
+        {
+            "_id" : ObjectId("64eddd76392526d75c63398f"),
+            "member_id" : ObjectId("64edbd9b392526d75c63398d")
+        }
+    ],
+    "createdAt" : ISODate("2023-08-29T07:35:02.868+0000"),
+    "updatedAt" : ISODate("2023-08-29T12:00:28.957+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("64eddd93392526d75c63399c"),
+    "title" : "check",
+    "category_id" : ObjectId("60a63294da175e24b0972f64"),
+    "admin_id" : ObjectId("64edbd9b392526d75c63398d"),
+    "visibility" : "public",
+    "join_requests" : [
+
+    ],
+    "members" : [
+        {
+            "_id" : ObjectId("64eddd93392526d75c63399d"),
+            "member_id" : ObjectId("64edbd9b392526d75c63398d")
+        }
+    ],
+    "createdAt" : ISODate("2023-08-29T11:59:15.169+0000"),
+    "updatedAt" : ISODate("2023-08-29T12:02:48.367+0000"),
+    "__v" : NumberInt(0)
+}
