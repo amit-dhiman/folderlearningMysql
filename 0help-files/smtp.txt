@@ -1,0 +1,108 @@
+root contabo
+user root
+SJ6hQ5gZ39@lJoq!
+
+smtp mail pswrd, 
+amit.dharmani12@gmail.com
+kxzi smvh xbed zymj
+
+----------adolfo database pswrd-----------
+F6^k86tL@a@
+----------pinkboda database pswrd-----------
+7?sYg5c00
+----------rakett database pswrd-----------
+rakett
+Y72f!sg75
+
+
+ajdpropertiesllc@gmail.com
+
+-------Adolfo live-----
+http://45.93.138.66:8080/phpmyadmin/
+username adolfo
+password  Deep7550!
+
+adolfo SFTP
+Host 45.93.138.66
+username  root
+password Deep7550!
+-----------#-----------
+
+-------client Venmo & Paypal account detail--------
+playboss1@sbcglobal.net
+Deep7550!
+
+-------client Sandbox account detail--------
+sb-6n4qt28954621@personal.example.com
+Q?CZ7mwU
+
+--------------pinkboda live--------------
+
+http://34.89.104.27/phpmyadmin
+root
+B8wU:aoY
+----------------ftp------------------
+34.89.104.27
+rsa-key-20240311
+C:\Users\dharm\Downloads\pinboda-new-server.ppk
+
+my sql workbench 
+
+34.147.237.0
+pinkboda
+B8wU:aoY
+
+
+-----Bitbucket-----
+dharmaniz.mandeepsharma@gmail.com
+Dh123456@
+
+{
+  paymentId: 'PAYID-MWKVIHI7V516235G0457362X',
+  token: 'EC-76U34888HR9394101',
+  PayerID: 'GJRKN5NXMR74E'
+}
+
+-----paypal creds-----
+dharmaniz.abhishek@gmail.com
+Dharmani335!
+
+-----paypal business-------
+abhi.dharmaniz123@gmail.com
+Dharmani@222
+
+-----sandbox-paypal-----
+sb-mk1ko26642252@business.example.com
+TK#NZ1's
+
+sb-g3ftk9108657@business.example.com
+B6GEVW5LDXAP3YXX
+
+-----------webpurify---------
+harrisd2028@gmail.com
+harrisd2028@gmail.com
+FFpDThBAr@101
+
+Gmail SMTP server address: smtp.gmail.com
+Gmail SMTP username: mailto:contact@dharmani.com
+Gmail SMTP password: zplfbxrhmsbitgbq
+<-- Gmail SMTP password: dngasyrticrswkem -->
+
+Gmail SMTP port (TLS): 587
+Gmail SMTP port (SSL): 465
+all please use this smtp detail for email 
+
+service: 'smtp.gmail.com',
+auth: {
+   user: 'contact@dharmani.com',
+   pass: 'zplfbxrhmsbitgbq'
+}
+
+service: 'gmail',
+auth: {
+ user: 'amitdhiman212001@gmail.com',
+ pass: 'ojgt cysx ahwj qryv'
+}      
+
+
+

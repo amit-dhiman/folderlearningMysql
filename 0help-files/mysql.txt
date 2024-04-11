@@ -120,7 +120,17 @@ SELECT salary,name, COUNT(*) from testing GROUP BY name, salary HAVING COUNT(*) 
 select * from testing where id IN (select id FROM testing WHERE id%2 = 1 );
 
 
+// ------query to search from other join table----
+    const getDriversQuery = `
+    SELECT bookings.*, users.id AS user_id, users.first_name, users.last_name, users.email, users.mobile_number, users.profile_image, users.id_image, users.document_image
+    FROM bookings
+    LEFT JOIN users ON bookings.user_id = users.id
+    WHERE bookings.booking_status = 'Accepted' AND (users.first_name LIKE '%${search}%' OR users.last_name LIKE '%${search}%')
+    ORDER BY bookings.created_at DESC LIMIT ${itemsPerPage} OFFSET ${offset}
+    `;
 
+    const results= await db.sequelize.query(getDriversQuery, {type: db.sequelize.QueryTypes.SELECT,
+    });
 
 
 
