@@ -1,0 +1,6 @@
+-----read more about rest apis------
+https://docs.agora.io/en/video-calling/reference/agora-console-rest-api?platform=web#create-a-project
+
+
+To create Agora Project
+htps://api.agora.io/dev/v1/project

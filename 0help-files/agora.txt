@@ -1,0 +1,10 @@
+video sdk for react
+https://api-ref.agora.io/en/video-sdk/reactjs/2.x/functions/RemoteVideoTrack.html
+
+
+# ---Agora---
+agora_app_id="de6b5c3082ab43cb98f8a79e2c525252"
+app_certificate="d084e0c168c546528032bf2944aba641"
+key="f52cd91df7634b7491c0816d047a52a0"
+secret="a2966f854bd549e09602680ede4dd9d0"
+token=""
