@@ -2,5 +2,12 @@
 https://docs.agora.io/en/video-calling/reference/agora-console-rest-api?platform=web#create-a-project
 
 
+-----Create meeting(host) Steps-----
+1> createAgoraPoject()
+2> findOrCreate in db , generate random uuid
+3> generate random link
+4> save in db
+
 To create Agora Project
 htps://api.agora.io/dev/v1/project
+

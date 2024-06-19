@@ -2,6 +2,18 @@ root contabo
 user root
 SJ6hQ5gZ39@lJoq!
 
+Amit (D4)
+username=>dev_admin_d4
+password=>o605Wv!c8
+----database-----
+E4j3nk@57!65)
+dev_admin
+
+-----plesk------
+db_admin
+x1D30k9$r4&4
+
+
 smtp mail pswrd, 
 amit.dharmani12@gmail.com
 kxzi smvh xbed zymj
@@ -83,23 +95,15 @@ B6GEVW5LDXAP3YXX
 
 -----------webpurify---------
 harrisd2028@gmail.com
-harrisd2028@gmail.com
 FFpDThBAr@101
 
-Gmail SMTP server address: smtp.gmail.com
-Gmail SMTP username: mailto:contact@dharmani.com
-Gmail SMTP password: zplfbxrhmsbitgbq
-<-- Gmail SMTP password: dngasyrticrswkem -->
-
-Gmail SMTP port (TLS): 587
-Gmail SMTP port (SSL): 465
-all please use this smtp detail for email 
-
-service: 'smtp.gmail.com',
-auth: {
-   user: 'contact@dharmani.com',
-   pass: 'zplfbxrhmsbitgbq'
-}
+---------------SMTP----------------
+use this smtp service for send email's
+'host' => 'smtp.mail.me.com',
+'username' => 'vivekdharmani7@icloud.com',
+'password' => 'lqvs-jvya-qekc-wfmu',
+'port' => '587',
+'encryption' => 'tls'
 
 service: 'gmail',
 auth: {

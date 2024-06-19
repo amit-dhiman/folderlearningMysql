@@ -1,0 +1,4 @@
+----https://www.noip.com/free-----
+Temporary solution is by creating an account in https://www.noip.com/free . It will provide a domain(somerandom.noip.com) and a tool(utility) that will map your dynamic ip to that domain(somerandom.noip.com). so that you can redirect mysite.tk to that domain (somerandom.noip.com).
+
+Tried out "Render.com" for free hosting
